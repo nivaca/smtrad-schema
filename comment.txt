@@ -1,0 +1,7 @@
+This a TEI ODD file.
+
+See:
+https://wiki.tei-c.org/index.php/ODD
+
+
+Use TEI ODD to RELAX NG XML Transformation Scenario in Oxygen.
