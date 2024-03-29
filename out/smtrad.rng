@@ -5368,6 +5368,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Italian) Italian</a:documentation>
                   <value>lat</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Latin) Latin</a:documentation>
+                 <value>nld</value>
                  <a:documentation
                    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Deutch)
                    Deutch</a:documentation>
@@ -5445,6 +5446,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Italian) Italian</a:documentation>
                   <value>lat</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Latin) Latin</a:documentation>
+                 <value>nld</value>
                  <a:documentation
                    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Deutch)
                    Deutch</a:documentation>
