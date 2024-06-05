@@ -166,6 +166,10 @@
                   <gloss>Latin</gloss>
                   <desc>Latin</desc>
                 </valItem>
+                <valItem ident="nld">
+                  <gloss>Dutch</gloss>
+                  <desc>Dutch</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
@@ -229,6 +233,10 @@
                   <gloss>Latin</gloss>
                   <desc>Latin</desc>
                 </valItem>
+                <valItem ident="nld">
+                  <gloss>Dutch</gloss>
+                  <desc>Dutch</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
@@ -291,6 +299,10 @@
                 <valItem ident="lat">
                   <gloss>Latin</gloss>
                   <desc>Latin</desc>
+                </valItem>
+                <valItem ident="nld">
+                  <gloss>Dutch</gloss>
+                  <desc>Dutch</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -483,9 +495,9 @@
                 <valItem ident="nc">
                   <gloss>nocite</gloss>
                   <desc>
-                    \nocite: adds to bibliography but does not cite 
-                    in text; in the text, only the ref content 
-                    is included
+                    \nocite: adds reference to bibliography
+                    but does not cite in text; in the text,
+                    only the ref content is included
                   </desc>
                 </valItem>
                 <valItem ident="pnc">
