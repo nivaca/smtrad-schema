@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2024-06-05T22:51:27Z. . 
+# Schema generated from ODD source 2024-06-21T20:15:06Z. . 
 # TEI Edition: P5 Version 4.7.0. Last updated on 16th November 2023, revision e5dd73ed0 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/ 
 #
@@ -10739,7 +10739,13 @@ supplied =
            "vel"
          | 
            ## (pvel) Inserts italized `o:` before the content and uses parentheses instead of brackets
-           "pvel")+
+           "pvel"
+         | 
+           ## (sc) Inserts `sc.` before the content
+           "sc"
+         | 
+           ## (sc) Inserts `sc.` before the contentand uses parentheses instead of brackets
+           "psc")+
       }
     }?,
     

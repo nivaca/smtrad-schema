@@ -700,8 +700,7 @@
                 </valItem>
                 <valItem ident="peq">
                   <gloss>peq</gloss>
-                  <desc>Inserts $=$ before the content and uses parentheses
-                    instead of brackets</desc>
+                  <desc>Inserts $=$ before the content and uses parentheses instead of brackets</desc>
                 </valItem>
                 <valItem ident="vel">
                   <gloss>vel</gloss>
@@ -709,8 +708,15 @@
                 </valItem>
                 <valItem ident="pvel">
                   <gloss>pvel</gloss>
-                  <desc>Inserts italized `o:` before the content and uses parentheses
-                    instead of brackets</desc>
+                  <desc>Inserts italized `o:` before the content and uses parentheses instead of brackets</desc>
+                </valItem>
+                <valItem ident="sc">
+                  <gloss>sc</gloss>
+                  <desc>Inserts `sc.` before the content</desc>
+                </valItem>
+                <valItem ident="psc">
+                  <gloss>sc</gloss>
+                  <desc>Inserts `sc.` before the contentand uses parentheses instead of brackets</desc>
                 </valItem>
               </valList>
             </attDef>
