@@ -710,13 +710,80 @@
                   <gloss>pvel</gloss>
                   <desc>Inserts italized `o:` before the content and uses parentheses instead of brackets</desc>
                 </valItem>
-                <valItem ident="sc">
-                  <gloss>sc</gloss>
+                <valItem ident="sc."><!-- mind the dot -->
+                  <gloss>sc.</gloss>
                   <desc>Inserts `sc.` before the content</desc>
                 </valItem>
-                <valItem ident="psc">
-                  <gloss>sc</gloss>
+                <valItem ident="psc."><!-- mind the dot -->
+                  <gloss>sc.</gloss>
                   <desc>Inserts `sc.` before the contentand uses parentheses instead of brackets</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+        <elementSpec ident="abbr" module="core" mode="change">
+          <attList>
+            <!-- @corresp-->
+            <attDef ident="corresp" usage="opt" mode="change">
+              <valList type="closed" mode="add">
+                <valItem ident="eil">
+                  <gloss>eil</gloss>
+                  <desc>edición incunable latina</desc>
+                </valItem>
+                <valItem ident="eils">
+                  <gloss>eils</gloss>
+                  <desc>ediciones incunables latinas</desc>
+                </valItem>
+                <valItem ident="ms">
+                  <gloss>ms</gloss>
+                  <desc>manuscrito</desc>
+                </valItem>
+                <valItem ident="mss">
+                  <gloss>mss</gloss>
+                  <desc>manuscritos</desc>
+                </valItem>
+                <valItem ident="latc">
+                  <gloss>latc</gloss>
+                  <desc>latín clásico</desc>
+                </valItem>
+                <valItem ident="latm">
+                  <gloss>latm</gloss>
+                  <desc>latín medieval</desc>
+                </valItem>
+                <valItem ident="eg">
+                  <gloss>eg</gloss>
+                  <desc>e.g.</desc>
+                </valItem>
+                <valItem ident="ie">
+                  <gloss>ie</gloss>
+                  <desc>i.e.</desc>
+                </valItem>
+                <valItem ident="sc">
+                  <gloss>sc</gloss>
+                  <desc>sc.</desc>
+                </valItem>
+                <valItem ident="viz">
+                  <gloss>viz</gloss>
+                  <desc>viz.</desc>
+                </valItem>
+                <valItem ident="aec">
+                  <gloss>aec</gloss>
+                  <desc>a.e.c.</desc>
+                </valItem>
+                <valItem ident="ec">
+                  <gloss>ec</gloss> 
+                  <desc>e.c.</desc>
+                </valItem>
+                <valItem ident="fl">
+                  <gloss>fl</gloss>
+                  <desc>fl.</desc>
+                </valItem>
+                <valItem ident="c">
+                  <gloss>c</gloss>
+                  <desc>c.</desc>
                 </valItem>
               </valList>
             </attDef>
