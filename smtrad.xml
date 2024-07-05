@@ -792,7 +792,7 @@
         
         <elementSpec ident="num" module="core" mode="change">
           <attList>
-            <attDef ident="corresp" usage="opt" mode="change">
+            <attDef ident="type" usage="opt" mode="change">
               <valList type="closed" mode="add">
                 <valItem ident="roman">
                   <gloss>roman</gloss>
