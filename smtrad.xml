@@ -306,6 +306,22 @@
                 </valItem>
               </valList>
             </attDef>
+            <attDef ident="who" usage="opt" mode="change">
+              <valList type="closed" mode="add">
+                <valItem ident="Sal">
+                  <gloss>Sal</gloss>
+                  <desc>Salomon</desc>
+                </valItem>
+                <valItem ident="Marc">
+                  <gloss>Marc</gloss>
+                  <desc>Marcolfus</desc>
+                </valItem>
+                <valItem ident="al">
+                  <gloss>al</gloss>
+                  <desc>alii (otros hablantes)</desc>
+                </valItem>
+              </valList>
+            </attDef>
           </attList>
         </elementSpec>
         
@@ -801,8 +817,9 @@
               </valList>
             </attDef>
           </attList>
-        </elementSpec>        
-        
+        </elementSpec>       
+
+
         <moduleRef key="figures"/>
         
         <moduleRef key="msdescription"/>
