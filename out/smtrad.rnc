@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2024-07-18T00:39:58Z. . 
+# Schema generated from ODD source 2024-07-18T02:18:34Z. . 
 # TEI Edition: P5 Version 4.8.0. Last updated on 8th July 2024, revision 1f9891a87 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.0/ 
 #
@@ -3201,13 +3201,13 @@ q =
       list {
         (
          ## (Sal) Salomon
-         "Sal"
+         "#Sal"
          | 
            ## (Marc) Marcolfus
-           "Marc"
+           "#Marc"
          | 
            ## (al) alii (otros hablantes)
-           "al")+
+           "#al")+
       }
     }?,
     
