@@ -316,6 +316,10 @@
                   <gloss>Marc</gloss>
                   <desc>Marcolfus</desc>
                 </valItem>
+                <valItem ident="#Fus">
+                  <gloss>Fus</gloss>
+                  <desc>Fusuada</desc>
+                </valItem>
                 <valItem ident="#al">
                   <gloss>al</gloss>
                   <desc>alii (otros hablantes)</desc>
