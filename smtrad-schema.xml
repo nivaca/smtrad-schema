@@ -746,8 +746,8 @@
         
         <elementSpec ident="abbr" module="core" mode="change">
           <attList>
-            <!-- @corresp-->
-            <attDef ident="corresp" usage="opt" mode="change">
+            <!-- @ana-->
+            <attDef ident="ana" usage="opt" mode="change">
               <valList type="closed" mode="add">
                 <valItem ident="adloc">
                   <gloss>ad loc.</gloss>

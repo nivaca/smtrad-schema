@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-10-24T21:47:44Z. . 
+Schema generated from ODD source 2024-10-24T21:50:53Z. . 
 TEI Edition: P5 Version 4.8.0. Last updated on 8th July 2024, revision 1f9891a87 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.0/ 
   
@@ -6339,6 +6339,7 @@ Measures]</a:documentation>
          <ref name="att.global.rendition.attribute.rend"/>
          <ref name="att.global.rendition.attribute.style"/>
          <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.global.linking.attribute.corresp"/>
          <ref name="att.global.linking.attribute.synch"/>
          <ref name="att.global.linking.attribute.sameAs"/>
          <ref name="att.global.linking.attribute.copyOf"/>
@@ -6346,7 +6347,6 @@ Measures]</a:documentation>
          <ref name="att.global.linking.attribute.prev"/>
          <ref name="att.global.linking.attribute.exclude"/>
          <ref name="att.global.linking.attribute.select"/>
-         <ref name="att.global.analytic.attribute.ana"/>
          <ref name="att.global.facs.attribute.facs"/>
          <ref name="att.global.change.attribute.change"/>
          <ref name="att.global.responsibility.attribute.cert"/>
@@ -6355,8 +6355,9 @@ Measures]</a:documentation>
          <ref name="att.typed.attribute.subtype"/>
          <ref name="att.cmc.attributes"/>
          <optional>
-            <attribute name="corresp">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(corresponds) points to elements that correspond to the current element in some way.</a:documentation>
+            <attribute name="ana">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analysis) indicates one or more elements containing interpretations of the element on which the <code xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:rng="http://relaxng.org/ns/structure/1.0">@ana</code> attribute appears.</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
