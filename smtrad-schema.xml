@@ -370,7 +370,7 @@
                 </valItem>
                 <valItem ident="upshape">
                   <gloss>upshape</gloss>
-                  <desc>Render in upshape, <abbr corresp="ie"/> without italics</desc>
+                  <desc>Render in upshape, i.e. without italics</desc>
                 </valItem>
                 <valItem ident="bf">
                   <gloss>boldface</gloss>
@@ -478,35 +478,35 @@
               <valList type="closed" mode="add">
                 <valItem ident="a">
                   <gloss>citeauthor</gloss>
-                  <desc>\citeauthor: <abbr corresp="eg"/> 'Ockham'</desc>
+                  <desc>\citeauthor: e.g. 'Ockham'</desc>
                 </valItem>
                 <valItem ident="p">
                   <gloss>parencite</gloss>
-                  <desc>\parencite: <abbr corresp="eg"/> '(Ockham 2020)'</desc>
+                  <desc>\parencite: e.g. '(Ockham 2020)'</desc>
                 </valItem>
                 <valItem ident="t">
                   <gloss>citetitle</gloss>
-                  <desc>\citetitle: <abbr corresp="eg"/> 'Quodlibeta Septem'</desc>
+                  <desc>\citetitle: e.g. 'Quodlibeta Septem'</desc>
                 </valItem>
                 <valItem ident="y">
                   <gloss>citeyear</gloss>
-                  <desc>\citeyear: <abbr corresp="eg"/> '2020'</desc>
+                  <desc>\citeyear: e.g. '2020'</desc>
                 </valItem>
                 <valItem ident="py">
                   <gloss>citeyear in parenthesis</gloss>
-                  <desc>:\citeyear in parenthesis <abbr corresp="eg"/> '(2020)'</desc>
+                  <desc>:\citeyear in parenthesis e.g. '(2020)'</desc>
                 </valItem>
                 <valItem ident="abbr">
                   <gloss>citeabbr</gloss>
-                  <desc>\citeabbr: <abbr corresp="eg"/> 'Quodl'</desc>
+                  <desc>\citeabbr: e.g. 'Quodl'</desc>
                 </valItem>
                 <valItem ident="pabbr">
                   <gloss>citeabbr in parenthesis</gloss>
-                  <desc>\citeabbr in parenthesis: <abbr corresp="eg"/> '(Quodl)'</desc>
+                  <desc>\citeabbr in parenthesis: e.g. '(Quodl)'</desc>
                 </valItem>
                 <valItem ident="abbrpc">
                   <gloss>citeabbr (content)</gloss>
-                  <desc>\citeabbr (content): <abbr corresp="eg"/> 'Quodl (q.23)'</desc>
+                  <desc>\citeabbr (content): e.g. 'Quodl (q.23)'</desc>
                 </valItem>
                 <valItem ident="fulltext">
                   <gloss>fulltext ref</gloss>
@@ -731,11 +731,11 @@
                   <desc>Inserts italized `o:` before the content and uses parentheses instead of brackets</desc>
                 </valItem>
                 <valItem ident="sc."><!-- mind the dot -->
-                  <gloss><abbr corresp="sc"/></gloss>
+                  <gloss>sc.</gloss>
                   <desc>Inserts `sc.` before the content</desc>
                 </valItem>
                 <valItem ident="psc."><!-- mind the dot -->
-                  <gloss><abbr corresp="sc"/></gloss>
+                  <gloss>sc</gloss>
                   <desc>Inserts `sc.` before the content and uses parentheses instead of brackets</desc>
                 </valItem>
               </valList>
@@ -749,6 +749,10 @@
             <!-- @corresp-->
             <attDef ident="corresp" usage="opt" mode="change">
               <valList type="closed" mode="add">
+                <valItem ident="adloc">
+                  <gloss>ad loc.</gloss>
+                  <desc>ad locum (en ese lugar)</desc>
+                </valItem>
                 <valItem ident="eil">
                   <gloss>eil</gloss>
                   <desc>edición incunable latina</desc>
@@ -778,32 +782,32 @@
                   <desc>e.g.</desc>
                 </valItem>
                 <valItem ident="ie">
-                  <gloss>ie</gloss>
-                  <desc><abbr corresp="ie"/></desc>
+                  <gloss>i.e.</gloss>
+                  <desc>id est (esto es)</desc>
                 </valItem>
                 <valItem ident="sc">
                   <gloss>sc</gloss>
-                  <desc><abbr corresp="sc"/></desc>
+                  <desc>scilicet (a saber)</desc>
                 </valItem>
                 <valItem ident="viz">
-                  <gloss>viz</gloss>
-                  <desc><abbr corresp="viz"/></desc>
+                  <gloss>viz.</gloss>
+                  <desc>videlicet (a saber)</desc>
                 </valItem>
                 <valItem ident="aec">
-                  <gloss>aec</gloss>
-                  <desc>a.e.c.</desc>
+                  <gloss>a.e.c.</gloss>
+                  <desc>antes de la Era Coun</desc>
                 </valItem>
                 <valItem ident="ec">
-                  <gloss>ec</gloss> 
-                  <desc>e.c.</desc>
+                  <gloss>e.c.</gloss> 
+                  <desc>Era Común</desc>
                 </valItem>
                 <valItem ident="fl">
-                  <gloss>fl</gloss>
-                  <desc>fl.</desc>
+                  <gloss>fl.</gloss>
+                  <desc>floreció</desc>
                 </valItem>
                 <valItem ident="c">
-                  <gloss>c</gloss>
-                  <desc>c.</desc>
+                  <gloss>c.</gloss>
+                  <desc>circa (cerca de, próximo a)</desc>
                 </valItem>
               </valList>
             </attDef>
