@@ -809,6 +809,10 @@
                   <gloss>c.</gloss>
                   <desc>circa (cerca de, próximo a)</desc>
                 </valItem>
+                <valItem ident="sicb">
+                  <gloss>[sic]</gloss>
+                  <desc>"sic" entre corchetes</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
