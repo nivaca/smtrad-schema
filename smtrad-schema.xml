@@ -813,6 +813,10 @@
                   <gloss>[sic]</gloss>
                   <desc>"sic" entre corchetes</desc>
                 </valItem>
+                <valItem ident="sv">
+                  <gloss>s.v.</gloss>
+                  <desc>sub voce (bajo la voz: en la entrada del lexema)</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>

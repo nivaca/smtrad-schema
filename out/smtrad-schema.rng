@@ -5,9 +5,9 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-10-31T23:01:00Z. . 
-TEI Edition: P5 Version 4.8.0. Last updated on 8th July 2024, revision 1f9891a87 
-TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.0/ 
+Schema generated from ODD source 2024-11-02T20:57:37Z. . 
+TEI Edition: P5 Version 4.8.1. Last updated on 1st November 2024, revision 0a2bff95a 
+TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.1/ 
   
 --><!---->
    <define name="macro.abContent">
@@ -6393,6 +6393,8 @@ Measures]</a:documentation>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(c.) circa (cerca de, próximo a)</a:documentation>
                         <value>sicb</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">([sic]) "sic" entre corchetes</a:documentation>
+                        <value>sv</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.v.) sub voce (bajo la voz: en la entrada del lexema)</a:documentation>
                      </choice>
                   </oneOrMore>
                </list>
