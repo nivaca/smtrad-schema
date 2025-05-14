@@ -834,8 +834,8 @@
             </attDef>
           </attList>
         </elementSpec>       
-
-
+        
+        
         <moduleRef key="figures"/>
         
         <moduleRef key="msdescription"/>
@@ -919,6 +919,20 @@
             </attDef>
           </attList>
         </classSpec>
+        
+        
+        <!-- Add textcrit module for rdg element -->
+        <moduleRef key="textcrit"/>
+        
+        <!-- Add constraint for rdg element with empty corresp -->
+        <constraintSpec ident="rdg-corresp-not-empty-hash" scheme="schematron">
+          <desc>rdg element must not have @corresp attribute with just a hash "#"</desc>
+          <constraint>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:rdg">
+              <report test="@corresp='#'">Error: rdg element must not have @corresp="#". The @corresp attribute should reference a valid XML ID.</report>
+            </rule>
+          </constraint>
+        </constraintSpec>
       </schemaSpec>
     </body>
   </text>
