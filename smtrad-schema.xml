@@ -920,7 +920,7 @@
           </attList>
         </classSpec>
         
-        
+<!--        
         <constraintSpec ident="q-corresp-not-just-hash" scheme="schematron">
           <desc>q element should not have corresp="#"</desc>
           <constraint>
@@ -928,7 +928,7 @@
               <report test="@corresp='#'">Error: q element has corresp="#" which is an empty reference. The corresp attribute should reference a valid XML ID after the hash.</report>
             </rule>
           </constraint>
-        </constraintSpec>
+        </constraintSpec>-->
         
         <constraintSpec ident="element-corresp-not-just-hash" scheme="schematron">
           <desc>No element should have corresp="#"</desc>
