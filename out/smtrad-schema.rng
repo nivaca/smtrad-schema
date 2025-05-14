@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-05-14T21:25:37Z. . 
+Schema generated from ODD source 2025-05-14T21:28:14Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -16941,9 +16941,9 @@ Suggested values include: 1] pilcrow (pilcrow); 2] virgula (virgula); 3] punctus
       </rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="SMTrad-q-corresp-not-empty-hash-constraint-rule-65">
-      <rule xmlns:rng="http://relaxng.org/ns/structure/1.0" context="tei:q">
-         <report test="@corresp='#'">Error: q element must not have @corresp="#". The @corresp attribute should reference a valid XML ID.</report>
+            id="SMTrad-no-empty-hash-references-constraint-rule-65">
+      <rule xmlns:rng="http://relaxng.org/ns/structure/1.0" context="*[@*='#']">
+         <report test="true">Error: Element <name/> has attribute <name path="@*[.='#']"/> with value "#". Attributes that reference XML IDs should point to a valid ID, not just "#".</report>
       </rule>
    </pattern>
 </grammar>
