@@ -920,15 +920,25 @@
           </attList>
         </classSpec>
         
-        <!-- Add generalized constraint for any attribute with value "#" -->
-        <constraintSpec ident="no-empty-hash-references" scheme="schematron">
-          <desc>No attribute should have exactly the value "#" as this represents an empty reference</desc>
+        
+        <constraintSpec ident="q-corresp-not-just-hash" scheme="schematron">
+          <desc>q element should not have corresp="#"</desc>
           <constraint>
-            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="*[@*='#']">
-              <report test="true">Error: Element <name/> has attribute <name path="@*[.='#']"/> with value "#". Attributes that reference XML IDs should point to a valid ID, not just "#".</report>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:q">
+              <report test="@corresp='#'">Error: q element has corresp="#" which is an empty reference. The corresp attribute should reference a valid XML ID after the hash.</report>
             </rule>
           </constraint>
         </constraintSpec>
+        
+        <constraintSpec ident="element-corresp-not-just-hash" scheme="schematron">
+          <desc>No element should have corresp="#"</desc>
+          <constraint>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="*">
+              <report test="@corresp='#'">Error: <name/> element has corresp="#" which is an empty reference. The corresp attribute should reference a valid XML ID after the hash.</report>
+            </rule>
+          </constraint>
+        </constraintSpec>
+        
         
       </schemaSpec>
     </body>
