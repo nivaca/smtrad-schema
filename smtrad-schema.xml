@@ -933,7 +933,7 @@
         <constraintSpec ident="element-corresp-not-just-hash" scheme="schematron">
           <desc>No element should have corresp="#"</desc>
           <constraint>
-            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="*">
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="*[@corresp]">
               <report test="@corresp='#'">Error: <name/> element has corresp="#" which is an empty reference. The corresp attribute should reference a valid XML ID after the hash.</report>
             </rule>
           </constraint>
