@@ -540,6 +540,10 @@
                   <gloss>note</gloss>
                   <desc>Note to the text</desc>
                 </valItem>
+                <valItem ident="ms">
+                  <gloss>manuscript</gloss>
+                  <desc>A MS. in BenSM's critical apparatus.</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
