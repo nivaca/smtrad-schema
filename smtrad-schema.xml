@@ -742,7 +742,7 @@
                   <gloss>sc</gloss>
                   <desc>Inserts `sc.` before the content and uses parentheses instead of brackets</desc>
                 </valItem>
-                <valItem ident="uncert"><!-- mind the dot -->
+                <valItem ident="uncert">
                   <gloss>uncertainty</gloss>
                   <desc>Inserts `(?)`.</desc>
                 </valItem>
