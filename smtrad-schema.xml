@@ -825,6 +825,10 @@
                   <gloss>s.v.</gloss>
                   <desc>sub voce (bajo la voz: en la entrada del lexema)</desc>
                 </valItem>
+                <valItem ident="lit">
+                  <gloss>lit.</gloss>
+                  <desc>literalmente</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
