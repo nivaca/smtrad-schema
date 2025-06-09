@@ -742,6 +742,10 @@
                   <gloss>sc</gloss>
                   <desc>Inserts `sc.` before the content and uses parentheses instead of brackets</desc>
                 </valItem>
+                <valItem ident="pq"><!-- mind the dot -->
+                  <gloss>pq</gloss>
+                  <desc>Inserts `(?)`.</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
