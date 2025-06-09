@@ -704,12 +704,16 @@
         <!-- Primary Source Transcription Module -->
         <moduleRef key="transcr"/>
         
-        
+        <!-- supplied element-->
         <elementSpec ident="supplied" module="core" mode="change">
           <attList>
             <!-- @rend -->
             <attDef ident="rend" usage="opt" mode="change">
               <valList type="closed" mode="add">
+                <valItem ident="eq">
+                  <gloss>eq</gloss>
+                  <desc>Inserts $=$ before the content</desc>
+                </valItem>
                 <valItem ident="nobrackets">
                   <gloss>nobrackets</gloss>
                   <desc>Supplied with no brackets</desc>
@@ -718,17 +722,13 @@
                   <gloss>p</gloss>
                   <desc>Uses parentheses instead of brackets</desc>
                 </valItem>
-                <valItem ident="eq">
-                  <gloss>eq</gloss>
-                  <desc>Inserts $=$ before the content</desc>
-                </valItem>
                 <valItem ident="peq">
                   <gloss>peq</gloss>
                   <desc>Inserts $=$ before the content and uses parentheses instead of brackets</desc>
                 </valItem>
-                <valItem ident="vel">
-                  <gloss>vel</gloss>
-                  <desc>Inserts italized `o:` before the content inside brackets</desc>
+                <valItem ident="psc."><!-- mind the dot -->
+                  <gloss>sc</gloss>
+                  <desc>Inserts `sc.` before the content and uses parentheses instead of brackets</desc>
                 </valItem>
                 <valItem ident="pvel">
                   <gloss>pvel</gloss>
@@ -738,9 +738,9 @@
                   <gloss>sc.</gloss>
                   <desc>Inserts `sc.` before the content</desc>
                 </valItem>
-                <valItem ident="psc."><!-- mind the dot -->
-                  <gloss>sc</gloss>
-                  <desc>Inserts `sc.` before the content and uses parentheses instead of brackets</desc>
+                <valItem ident="vel">
+                  <gloss>vel</gloss>
+                  <desc>Inserts italized `o:` before the content inside brackets</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -748,14 +748,31 @@
         </elementSpec>
         
         
+        <!-- abbr element-->
         <elementSpec ident="abbr" module="core" mode="change">
           <attList>
             <!-- @ana-->
             <attDef ident="ana" usage="opt" mode="change">
               <valList type="closed" mode="add">
+                <valItem ident="aec">
+                  <gloss>a.e.c.</gloss>
+                  <desc>antes de la Era Coun</desc>
+                </valItem>
                 <valItem ident="adloc">
                   <gloss>ad loc.</gloss>
                   <desc>ad locum (en ese lugar)</desc>
+                </valItem>
+                <valItem ident="c">
+                  <gloss>c.</gloss>
+                  <desc>circa (cerca de, próximo a)</desc>
+                </valItem>
+                <valItem ident="ec">
+                  <gloss>e.c.</gloss>
+                  <desc>Era Común</desc>
+                </valItem>
+                <valItem ident="eg">
+                  <gloss>eg</gloss>
+                  <desc>e.g.</desc>
                 </valItem>
                 <valItem ident="eil">
                   <gloss>eil</gloss>
@@ -765,13 +782,13 @@
                   <gloss>eils</gloss>
                   <desc>ediciones incunables latinas</desc>
                 </valItem>
-                <valItem ident="ms">
-                  <gloss>ms</gloss>
-                  <desc>manuscrito</desc>
+                <valItem ident="fl">
+                  <gloss>fl.</gloss>
+                  <desc>floreció</desc>
                 </valItem>
-                <valItem ident="mss">
-                  <gloss>mss</gloss>
-                  <desc>manuscritos</desc>
+                <valItem ident="ie">
+                  <gloss>i.e.</gloss>
+                  <desc>id est (esto es)</desc>
                 </valItem>
                 <valItem ident="latc">
                   <gloss>latc</gloss>
@@ -781,37 +798,21 @@
                   <gloss>latm</gloss>
                   <desc>latín medieval</desc>
                 </valItem>
-                <valItem ident="eg">
-                  <gloss>eg</gloss>
-                  <desc>e.g.</desc>
+                <valItem ident="lit">
+                  <gloss>lit.</gloss>
+                  <desc>literalmente</desc>
                 </valItem>
-                <valItem ident="ie">
-                  <gloss>i.e.</gloss>
-                  <desc>id est (esto es)</desc>
+                <valItem ident="ms">
+                  <gloss>ms</gloss>
+                  <desc>manuscrito</desc>
+                </valItem>
+                <valItem ident="mss">
+                  <gloss>mss</gloss>
+                  <desc>manuscritos</desc>
                 </valItem>
                 <valItem ident="sc">
                   <gloss>sc</gloss>
                   <desc>scilicet (a saber)</desc>
-                </valItem>
-                <valItem ident="viz">
-                  <gloss>viz.</gloss>
-                  <desc>videlicet (a saber)</desc>
-                </valItem>
-                <valItem ident="aec">
-                  <gloss>a.e.c.</gloss>
-                  <desc>antes de la Era Coun</desc>
-                </valItem>
-                <valItem ident="ec">
-                  <gloss>e.c.</gloss> 
-                  <desc>Era Común</desc>
-                </valItem>
-                <valItem ident="fl">
-                  <gloss>fl.</gloss>
-                  <desc>floreció</desc>
-                </valItem>
-                <valItem ident="c">
-                  <gloss>c.</gloss>
-                  <desc>circa (cerca de, próximo a)</desc>
                 </valItem>
                 <valItem ident="sicb">
                   <gloss>[sic]</gloss>
@@ -821,13 +822,13 @@
                   <gloss>s.v.</gloss>
                   <desc>sub voce (bajo la voz: en la entrada del lexema)</desc>
                 </valItem>
-                <valItem ident="lit">
-                  <gloss>lit.</gloss>
-                  <desc>literalmente</desc>
-                </valItem>
                 <valItem ident="uncert">
                   <gloss>uncertainty</gloss>
                   <desc>Inserts `(?)`.</desc>
+                </valItem>
+                <valItem ident="viz">
+                  <gloss>viz.</gloss>
+                  <desc>videlicet (a saber)</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -932,15 +933,15 @@
           </attList>
         </classSpec>
         
-<!--        
-        <constraintSpec ident="q-corresp-not-just-hash" scheme="schematron">
+        <!--        
+          <constraintSpec ident="q-corresp-not-just-hash" scheme="schematron">
           <desc>q element should not have corresp="#"</desc>
           <constraint>
-            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:q">
-              <report test="@corresp='#'">Error: q element has corresp="#" which is an empty reference. The corresp attribute should reference a valid XML ID after the hash.</report>
-            </rule>
+          <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:q">
+          <report test="@corresp='#'">Error: q element has corresp="#" which is an empty reference. The corresp attribute should reference a valid XML ID after the hash.</report>
+          </rule>
           </constraint>
-        </constraintSpec>-->
+          </constraintSpec>-->
         
         <constraintSpec ident="element-corresp-not-just-hash" scheme="schematron">
           <desc>No element should have corresp="#"</desc>
