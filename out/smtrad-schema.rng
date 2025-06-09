@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-06-09T15:37:48Z. . 
+Schema generated from ODD source 2025-06-09T15:40:45Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -6387,6 +6387,8 @@ Measures]</a:documentation>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.v.) sub voce (bajo la voz: en la entrada del lexema)</a:documentation>
                         <value>lit</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(lit.) literalmente</a:documentation>
+                        <value>uncert</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(uncertainty) Inserts `(?)`.</a:documentation>
                      </choice>
                   </oneOrMore>
                </list>
@@ -13764,8 +13766,6 @@ Sample values include: 1] header; 2] footer; 3] pageNum (page number); 4] lineNu
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sc.) Inserts `sc.` before the content</a:documentation>
                         <value>psc.</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sc) Inserts `sc.` before the content and uses parentheses instead of brackets</a:documentation>
-                        <value>uncert</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(uncertainty) Inserts `(?)`.</a:documentation>
                      </choice>
                   </oneOrMore>
                </list>

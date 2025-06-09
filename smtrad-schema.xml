@@ -742,10 +742,6 @@
                   <gloss>sc</gloss>
                   <desc>Inserts `sc.` before the content and uses parentheses instead of brackets</desc>
                 </valItem>
-                <valItem ident="uncert">
-                  <gloss>uncertainty</gloss>
-                  <desc>Inserts `(?)`.</desc>
-                </valItem>
               </valList>
             </attDef>
           </attList>
@@ -828,6 +824,10 @@
                 <valItem ident="lit">
                   <gloss>lit.</gloss>
                   <desc>literalmente</desc>
+                </valItem>
+                <valItem ident="uncert">
+                  <gloss>uncertainty</gloss>
+                  <desc>Inserts `(?)`.</desc>
                 </valItem>
               </valList>
             </attDef>
