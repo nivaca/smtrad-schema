@@ -86,7 +86,7 @@
                   <gloss>Dutch</gloss>
                   <desc>Dutch</desc>
                 </valItem>
-                <valItem ident="es">
+                <valItem ident="spa">
                   <gloss>Spanish</gloss>
                   <desc>Spanish</desc>
                 </valItem>
@@ -594,84 +594,92 @@
         <!-- "abbr" element-->
         <elementSpec ident="abbr" module="core" mode="change">
           <attList>
-            <!-- @ref-->
-            <attDef ident="ref" usage="opt" mode="change">
-              <valList type="closed" mode="add">
-                <valItem ident="#aec">
+            <!-- @ana-->
+            <attDef ident="ana" usage="opt" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="aec">
                   <gloss>a.e.c.</gloss>
                   <desc>antes de la Era Común</desc>
                 </valItem>
-                <valItem ident="#adloc">
+                <valItem ident="adloc">
                   <gloss>ad loc.</gloss>
                   <desc>ad locum (en ese lugar)</desc>
                 </valItem>
-                <valItem ident="#c">
+                <valItem ident="c">
                   <gloss>c.</gloss>
                   <desc>circa (cerca de, próximo a)</desc>
                 </valItem>
-                <valItem ident="#ec">
+                <valItem ident="ec">
                   <gloss>e.c.</gloss>
                   <desc>Era Común</desc>
                 </valItem>
-                <valItem ident="#eg">
+                <valItem ident="eg">
                   <gloss>eg</gloss>
                   <desc>e.g.</desc>
                 </valItem>
-                <valItem ident="#eil">
+                <valItem ident="eil">
                   <gloss>eil</gloss>
                   <desc>edición incunable latina</desc>
                 </valItem>
-                <valItem ident="#eils">
+                <valItem ident="eils">
                   <gloss>eils</gloss>
                   <desc>ediciones incunables latinas</desc>
                 </valItem>
-                <valItem ident="#fl">
+                <valItem ident="fl">
                   <gloss>fl.</gloss>
                   <desc>floreció</desc>
                 </valItem>
-                <valItem ident="#ie">
+                <valItem ident="ie">
                   <gloss>i.e.</gloss>
                   <desc>id est (esto es)</desc>
                 </valItem>
-                <valItem ident="#latc">
+                <valItem ident="latc">
                   <gloss>latc</gloss>
                   <desc>latín clásico</desc>
                 </valItem>
-                <valItem ident="#latm">
+                <valItem ident="latm">
                   <gloss>latm</gloss>
                   <desc>latín medieval</desc>
                 </valItem>
-                <valItem ident="#lit">
+                <valItem ident="lit">
                   <gloss>lit.</gloss>
                   <desc>literalmente</desc>
                 </valItem>
-                <valItem ident="#ms">
+                <valItem ident="ms">
                   <gloss>ms</gloss>
                   <desc>manuscrito</desc>
                 </valItem>
-                <valItem ident="#mss">
+                <valItem ident="mss">
                   <gloss>mss</gloss>
                   <desc>manuscritos</desc>
                 </valItem>
-                <valItem ident="#sc">
+                <valItem ident="sc">
                   <gloss>sc</gloss>
                   <desc>scilicet (a saber)</desc>
                 </valItem>
-                <valItem ident="#sicb">
+                <valItem ident="sicb">
                   <gloss>[sic]</gloss>
                   <desc>"sic" entre corchetes</desc>
                 </valItem>
-                <valItem ident="#sv">
+                <valItem ident="sv">
                   <gloss>s.v.</gloss>
                   <desc>sub voce (bajo la voz: en la entrada del lexema)</desc>
                 </valItem>
-                <valItem ident="#uncert">
+                <valItem ident="uncert">
                   <gloss>uncertainty</gloss>
                   <desc>Inserts `(?)`.</desc>
                 </valItem>
-                <valItem ident="#viz">
+                <valItem ident="viz">
                   <gloss>viz.</gloss>
                   <desc>videlicet (a saber)</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="type" usage="opt" mode="change">
+              <valList type="open" mode="add">
+                <valItem ident="check">
+                  <gloss>check</gloss>
+                  <desc>remember to check before publishing</desc>
                 </valItem>
               </valList>
             </attDef>
