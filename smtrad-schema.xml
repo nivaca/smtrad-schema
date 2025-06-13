@@ -751,8 +751,8 @@
         <!-- abbr element-->
         <elementSpec ident="abbr" module="core" mode="change">
           <attList>
-            <!-- @ana-->
-            <attDef ident="ana" usage="opt" mode="change">
+            <!-- @ref-->
+            <attDef ident="ref" usage="opt" mode="change">
               <valList type="closed" mode="add">
                 <valItem ident="aec">
                   <gloss>a.e.c.</gloss>
