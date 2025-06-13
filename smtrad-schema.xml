@@ -30,7 +30,70 @@
         <!-- Core Module -->
         <moduleRef key="core"/>
         
-        
+        <classSpec ident="att.global" type="atts" mode="change">
+          <attList>
+            <attDef ident="xml:lang" usage="opt" mode="change">
+              <valList type="closed" mode="replace">
+                <valItem ident="ang">
+                  <gloss>Anglo-Saxon</gloss>
+                  <desc>Anglo-Saxon</desc>
+                </valItem>
+                <valItem ident="cym">
+                  <gloss>Welsh</gloss>
+                  <desc>Welsh</desc>
+                </valItem>
+                <valItem ident="deu">
+                  <gloss>German</gloss>
+                  <desc>German</desc>
+                </valItem>
+                <valItem ident="enm">
+                  <gloss>Middle English</gloss>
+                  <desc>Middle English</desc>
+                </valItem>
+                <valItem ident="eng">
+                  <gloss>English</gloss>
+                  <desc>English</desc>
+                </valItem>
+                <valItem ident="fra">
+                  <gloss>French</gloss>
+                  <desc>French</desc>
+                </valItem>
+                <valItem ident="frm">
+                  <gloss>Middle French</gloss>
+                  <desc>Middle French</desc>
+                </valItem>
+                <valItem ident="fro">
+                  <gloss>Old French</gloss>
+                  <desc>Old French</desc>
+                </valItem>
+                <valItem ident="grc">
+                  <gloss>Classical Greek</gloss>
+                  <desc>Classical Greek</desc>
+                </valItem>
+                <valItem ident="hbo">
+                  <gloss>Ancient Hebrew</gloss>
+                  <desc>Ancient Hebrew</desc>
+                </valItem>
+                <valItem ident="ita">
+                  <gloss>Italian</gloss>
+                  <desc>Italian</desc>
+                </valItem>
+                <valItem ident="lat">
+                  <gloss>Latin</gloss>
+                  <desc>Latin</desc>
+                </valItem>
+                <valItem ident="nld">
+                  <gloss>Dutch</gloss>
+                  <desc>Dutch</desc>
+                </valItem>
+                <valItem ident="spa">
+                  <gloss>Spanish</gloss>
+                  <desc>Spanish</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </classSpec>
         
         
         <!-- note -->
@@ -73,6 +136,26 @@
               </datatype>
               <valList mode="change"/>
             </attDef>
+            <attDef ident="ana" usage="opt" mode="change">
+              <valList type="closed" mode="add">
+                <valItem ident="leavevmode">
+                  <gloss>leavevmode</gloss>
+                  <desc>Inserts LaTeX \leavevmode</desc>
+                </valItem>
+                <valItem ident="nl">
+                  <gloss>newline</gloss>
+                  <desc>Inserts LaTeX \par</desc>
+                </valItem>
+                <valItem ident="ling">
+                  <gloss>linguistic</gloss>
+                  <desc>This is a linguistic comment</desc>
+                </valItem>
+                <valItem ident="narr">
+                  <gloss>narrative</gloss>
+                  <desc>This is a comment concerning the work's narrative</desc>
+                </valItem>
+              </valList>
+            </attDef>
           </attList>
         </elementSpec>
         
@@ -112,63 +195,11 @@
         
         <elementSpec ident="quote" module="core" mode="change">
           <attList>
-            <attDef ident="xml:lang" usage="opt" mode="change">
+            <attDef ident="ana" usage="opt" mode="change">
               <valList type="closed" mode="add">
-                <valItem ident="ang">
-                  <gloss>Anglo-Saxon</gloss>
-                  <desc>Anglo-Saxon</desc>
-                </valItem>
-                <valItem ident="cym">
-                  <gloss>Welsh</gloss>
-                  <desc>Welsh</desc>
-                </valItem>
-                <valItem ident="deu">
-                  <gloss>German</gloss>
-                  <desc>German</desc>
-                </valItem>
-                <valItem ident="enm">
-                  <gloss>Middle English</gloss>
-                  <desc>Middle English</desc>
-                </valItem>
-                <valItem ident="eng">
-                  <gloss>English</gloss>
-                  <desc>English</desc>
-                </valItem>
-                <valItem ident="es">
-                  <gloss>Spanish</gloss>
-                  <desc>Spanish</desc>
-                </valItem>
-                <valItem ident="fra">
-                  <gloss>French</gloss>
-                  <desc>French</desc>
-                </valItem>
-                <valItem ident="frm">
-                  <gloss>Middle French</gloss>
-                  <desc>Middle French</desc>
-                </valItem>
-                <valItem ident="fro">
-                  <gloss>Old French</gloss>
-                  <desc>Old French</desc>
-                </valItem>
-                <valItem ident="grc">
-                  <gloss>Classical Greek</gloss>
-                  <desc>Classical Greek</desc>
-                </valItem>
-                <valItem ident="hbo">
-                  <gloss>Ancient Hebrew</gloss>
-                  <desc>Ancient Hebrew</desc>
-                </valItem>
-                <valItem ident="ita">
-                  <gloss>Italian</gloss>
-                  <desc>Italian</desc>
-                </valItem>
-                <valItem ident="lat">
-                  <gloss>Latin</gloss>
-                  <desc>Latin</desc>
-                </valItem>
-                <valItem ident="nld">
-                  <gloss>Dutch</gloss>
-                  <desc>Dutch</desc>
+                <valItem ident="verse">
+                  <gloss>verse</gloss>
+                  <desc>The quote is a verse</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -179,63 +210,11 @@
         
         <elementSpec ident="foreign" module="core" mode="change">
           <attList>
-            <attDef ident="xml:lang" usage="req" mode="change">
+            <attDef ident="ana" usage="opt" mode="change">
               <valList type="closed" mode="add">
-                <valItem ident="ang">
-                  <gloss>Anglo-Saxon</gloss>
-                  <desc>Anglo-Saxon</desc>
-                </valItem>
-                <valItem ident="cym">
-                  <gloss>Welsh</gloss>
-                  <desc>Welsh</desc>
-                </valItem>
-                <valItem ident="deu">
-                  <gloss>German</gloss>
-                  <desc>German</desc>
-                </valItem>
-                <valItem ident="enm">
-                  <gloss>Middle English</gloss>
-                  <desc>Middle English</desc>
-                </valItem>
-                <valItem ident="eng">
-                  <gloss>English</gloss>
-                  <desc>English</desc>
-                </valItem>
-                <valItem ident="es">
-                  <gloss>Spanish</gloss>
-                  <desc>Spanish</desc>
-                </valItem>
-                <valItem ident="fra">
-                  <gloss>French</gloss>
-                  <desc>French</desc>
-                </valItem>
-                <valItem ident="frm">
-                  <gloss>Middle French</gloss>
-                  <desc>Middle French</desc>
-                </valItem>
-                <valItem ident="fro">
-                  <gloss>Old French</gloss>
-                  <desc>Old French</desc>
-                </valItem>
-                <valItem ident="grc">
-                  <gloss>Classical Greek</gloss>
-                  <desc>Classical Greek</desc>
-                </valItem>
-                <valItem ident="hbo">
-                  <gloss>Ancient Hebrew</gloss>
-                  <desc>Ancient Hebrew</desc>
-                </valItem>
-                <valItem ident="ita">
-                  <gloss>Italian</gloss>
-                  <desc>Italian</desc>
-                </valItem>
-                <valItem ident="lat">
-                  <gloss>Latin</gloss>
-                  <desc>Latin</desc>
-                </valItem>
-                <valItem ident="nld">
-                  <gloss>Dutch</gloss>
-                  <desc>Dutch</desc>
+                <valItem ident="lexeme">
+                  <gloss>lexeme</gloss>
+                  <desc>Treats the quote as a lexeme</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -246,66 +225,6 @@
         
         <elementSpec ident="q" module="core" mode="change">
           <attList>
-            <attDef ident="xml:lang" usage="opt" mode="change">
-              <valList type="closed" mode="add">
-                <valItem ident="ang">
-                  <gloss>Anglo-Saxon</gloss>
-                  <desc>Anglo-Saxon</desc>
-                </valItem>
-                <valItem ident="cym">
-                  <gloss>Welsh</gloss>
-                  <desc>Welsh</desc>
-                </valItem>
-                <valItem ident="deu">
-                  <gloss>German</gloss>
-                  <desc>German</desc>
-                </valItem>
-                <valItem ident="enm">
-                  <gloss>Middle English</gloss>
-                  <desc>Middle English</desc>
-                </valItem>
-                <valItem ident="eng">
-                  <gloss>English</gloss>
-                  <desc>English</desc>
-                </valItem>
-                <valItem ident="es">
-                  <gloss>Spanish</gloss>
-                  <desc>Spanish</desc>
-                </valItem>
-                <valItem ident="fra">
-                  <gloss>French</gloss>
-                  <desc>French</desc>
-                </valItem>
-                <valItem ident="frm">
-                  <gloss>Middle French</gloss>
-                  <desc>Middle French</desc>
-                </valItem>
-                <valItem ident="fro">
-                  <gloss>Old French</gloss>
-                  <desc>Old French</desc>
-                </valItem>
-                <valItem ident="grc">
-                  <gloss>Classical Greek</gloss>
-                  <desc>Classical Greek</desc>
-                </valItem>
-                <valItem ident="hbo">
-                  <gloss>Ancient Hebrew</gloss>
-                  <desc>Ancient Hebrew</desc>
-                </valItem>
-                <valItem ident="ita">
-                  <gloss>Italian</gloss>
-                  <desc>Italian</desc>
-                </valItem>
-                <valItem ident="lat">
-                  <gloss>Latin</gloss>
-                  <desc>Latin</desc>
-                </valItem>
-                <valItem ident="nld">
-                  <gloss>Dutch</gloss>
-                  <desc>Dutch</desc>
-                </valItem>
-              </valList>
-            </attDef>
             <attDef ident="who" usage="opt" mode="change">
               <valList type="closed" mode="add">
                 <valItem ident="#Sal">
@@ -323,6 +242,24 @@
                 <valItem ident="#al">
                   <gloss>al</gloss>
                   <desc>alii (otros hablantes)</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="ana" usage="opt" mode="change">
+              <valList type="closed" mode="add">
+                <valItem ident="lexeme">
+                  <gloss>lexeme</gloss>
+                  <desc>Treats the quote as a lexeme</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="rend" usage="opt" mode="change">
+              <valList type="closed" mode="add">
+                <valItem ident="indented">
+                  <gloss>indented</gloss>
+                  <desc>
+                    The quote is rendered as an indented paragraph
+                  </desc>
                 </valItem>
               </valList>
             </attDef>
@@ -390,18 +327,6 @@
         </elementSpec>
         
         
-        <elementSpec ident="foreign" module="core" mode="change">
-          <attList>
-            <attDef ident="ana" usage="opt" mode="change">
-              <valList type="closed" mode="add">
-                <valItem ident="lexeme">
-                  <gloss>lexeme</gloss>
-                  <desc>Treats the quote as a lexeme</desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
         
         
         <elementSpec ident="mentioned" module="core" mode="change">
@@ -425,44 +350,6 @@
                 <valItem ident="lexeme">
                   <gloss>lexeme</gloss>
                   <desc>Treats the quote as a lexeme</desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-        
-        <elementSpec ident="q" module="core" mode="change">
-          <attList>
-            <attDef ident="ana" usage="opt" mode="change">
-              <valList type="closed" mode="add">
-                <valItem ident="lexeme">
-                  <gloss>lexeme</gloss>
-                  <desc>Treats the quote as a lexeme</desc>
-                </valItem>
-              </valList>
-            </attDef>
-            <attDef ident="rend" usage="opt" mode="change">
-              <valList type="closed" mode="add">
-                <valItem ident="indented">
-                  <gloss>indented</gloss>
-                  <desc>
-                    The quote is rendered as an indented paragraph
-                  </desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        
-        
-        <elementSpec ident="quote" module="core" mode="change">
-          <attList>
-            <attDef ident="ana" usage="opt" mode="change">
-              <valList type="closed" mode="add">
-                <valItem ident="verse">
-                  <gloss>verse</gloss>
-                  <desc>The quote is a verse</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -529,7 +416,7 @@
                   </desc>
                 </valItem>
                 <valItem ident="url">
-                  <gloss>ulr</gloss>
+                  <gloss>url</gloss>
                   <desc>produces a \href citation</desc>
                 </valItem>
                 <valItem ident="internal">
@@ -639,26 +526,6 @@
             </rule>
           </constraint>
         </constraintSpec>
-        <!-- rules for head -->
-        <!-- head rules are covered by general tei rules -->
-        
-        
-        
-        
-        <!-- rules for p -->
-        
-        <!-- note that this rule disallows the use of p as children of any other rules. 
-          Thus Ps are not allowed in notes or cites or quotes. P is a privileged structure, 
-          the "ab" element should be used everywhere else there is not for creating structure block units -->
-        
-        <!--<constraintSpec ident="body-p-is-child-of-div" scheme="schematron">
-          <desc>every body p must be an immediate child of a div</desc>
-          <constraint>
-          <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:text[1]/tei:body[1]//tei:p">
-          <report test="not(./parent::tei:div[1])">every body p must be an immediate child of a div</report>
-          </rule>
-          </constraint>
-          </constraintSpec>-->
         
         
         
@@ -666,34 +533,10 @@
         <!-- optional modules -->
         
         
-        
         <!-- linking module -->
         <moduleRef key="linking"/>
         
-        <elementSpec ident="ab" module="core" mode="change">
-          <attList>
-            <attDef ident="ana" usage="opt" mode="change">
-              <valList type="closed" mode="add">
-                <valItem ident="leavevmode">
-                  <gloss>leavevmode</gloss>
-                  <desc>Inserts LaTeX \leavevmode</desc>
-                </valItem>
-                <valItem ident="nl">
-                  <gloss>newline</gloss>
-                  <desc>Inserts LaTeX \par</desc>
-                </valItem>
-                <valItem ident="ling">
-                  <gloss>linguistic</gloss>
-                  <desc>This is a linguistic comment</desc>
-                </valItem>
-                <valItem ident="narr">
-                  <gloss>narrative</gloss>
-                  <desc>This is a comment concerning the work's narrative</desc>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
+        
         
         
         
@@ -752,11 +595,11 @@
         <elementSpec ident="abbr" module="core" mode="change">
           <attList>
             <!-- @ref-->
-            <attDef ident="ref" usage="opt" mode="add">
+            <attDef ident="ref" usage="opt" mode="change">
               <valList type="closed" mode="add">
                 <valItem ident="#aec">
                   <gloss>a.e.c.</gloss>
-                  <desc>antes de la Era Coun</desc>
+                  <desc>antes de la Era Común</desc>
                 </valItem>
                 <valItem ident="#adloc">
                   <gloss>ad loc.</gloss>
