@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-06-13T14:39:41Z. . 
+Schema generated from ODD source 2025-06-13T14:47:58Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -6331,6 +6331,51 @@ Sample values include: 1] suspension (suspension); 2] contraction (contraction);
                <data type="token">
                   <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="ref">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>aec</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(a.e.c.) antes de la Era Coun</a:documentation>
+                  <value>adloc</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ad loc.) ad locum (en ese lugar)</a:documentation>
+                  <value>c</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(c.) circa (cerca de, próximo a)</a:documentation>
+                  <value>ec</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(e.c.) Era Común</a:documentation>
+                  <value>eg</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eg) e.g.</a:documentation>
+                  <value>eil</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eil) edición incunable latina</a:documentation>
+                  <value>eils</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eils) ediciones incunables latinas</a:documentation>
+                  <value>fl</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(fl.) floreció</a:documentation>
+                  <value>ie</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(i.e.) id est (esto es)</a:documentation>
+                  <value>latc</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(latc) latín clásico</a:documentation>
+                  <value>latm</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(latm) latín medieval</a:documentation>
+                  <value>lit</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(lit.) literalmente</a:documentation>
+                  <value>ms</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ms) manuscrito</a:documentation>
+                  <value>mss</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(mss) manuscritos</a:documentation>
+                  <value>sc</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sc) scilicet (a saber)</a:documentation>
+                  <value>sicb</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">([sic]) "sic" entre corchetes</a:documentation>
+                  <value>sv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.v.) sub voce (bajo la voz: en la entrada del lexema)</a:documentation>
+                  <value>uncert</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(uncertainty) Inserts `(?)`.</a:documentation>
+                  <value>viz</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(viz.) videlicet (a saber)</a:documentation>
+               </choice>
             </attribute>
          </optional>
          <empty/>

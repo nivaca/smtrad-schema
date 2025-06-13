@@ -704,7 +704,7 @@
         <!-- Primary Source Transcription Module -->
         <moduleRef key="transcr"/>
         
-        <!-- supplied element-->
+        <!-- "supplied" element-->
         <elementSpec ident="supplied" module="core" mode="change">
           <attList>
             <!-- @rend -->
@@ -748,11 +748,11 @@
         </elementSpec>
         
         
-        <!-- abbr element-->
+        <!-- "abbr" element-->
         <elementSpec ident="abbr" module="core" mode="change">
           <attList>
             <!-- @ref-->
-            <attDef ident="ref" usage="opt" mode="change">
+            <attDef ident="ref" usage="opt" mode="add">
               <valList type="closed" mode="add">
                 <valItem ident="aec">
                   <gloss>a.e.c.</gloss>
