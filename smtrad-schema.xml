@@ -584,51 +584,73 @@
             <attDef ident="ana" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="aec">
-                  <gloss>a.e.c.</gloss>
+                  <gloss rend="sc">a.e.c.</gloss>
                   <desc>antes de la Era Común</desc>
                 </valItem>
                 <valItem ident="adloc">
-                  <gloss>ad loc.</gloss>
-                  <desc>ad locum (en ese lugar)</desc>
+                  <gloss rend="it">ad loc.</gloss>
+                  <desc>
+                    <hi>ad locum</hi> <q>en ese lugar</q>
+                  </desc>
                 </valItem>
                 <valItem ident="c">
-                  <gloss>c.</gloss>
-                  <desc>circa (cerca de, próximo a)</desc>
+                  <gloss rend="it">c.</gloss>
+                  <desc>
+                    <hi>circa</hi> 
+                    <q>cerca de, próximo a, en torno a</q>
+                  </desc>
+                </valItem>
+                <valItem ident="cym">
+                  <gloss rend="sc">cym</gloss>
+                  <desc>galés</desc>
                 </valItem>
                 <valItem ident="ec">
-                  <gloss>e.c.</gloss>
+                  <gloss rend="it">e.c.</gloss>
                   <desc>Era Común</desc>
                 </valItem>
                 <valItem ident="eg">
-                  <gloss>eg</gloss>
-                  <desc>e.g.</desc>
+                  <gloss rend="it">eg</gloss>
+                  <desc>
+                    <hi>exempli gratia</hi> 
+                    <q>por ejemplo</q>
+                  </desc>
                 </valItem>
                 <valItem ident="eil">
-                  <gloss>eil</gloss>
+                  <gloss rend="sc">eil</gloss>
                   <desc>edición incunable latina</desc>
                 </valItem>
                 <valItem ident="eils">
-                  <gloss>eils</gloss>
+                  <gloss rend="sc">eils</gloss>
                   <desc>ediciones incunables latinas</desc>
                 </valItem>
                 <valItem ident="enm">
-                  <gloss>enm</gloss>
+                  <gloss rend="sc">enm</gloss>
                   <desc>inglés medio</desc>
                 </valItem>
                 <valItem ident="fl">
-                  <gloss>fl.</gloss>
-                  <desc>floreció</desc>
+                  <gloss rend="it">fl.</gloss>
+                  <desc>
+                    <hi>floruit</hi>
+                    <q>floreció</q>
+                  </desc>
                 </valItem>
                 <valItem ident="ie">
-                  <gloss>i.e.</gloss>
-                  <desc>id est (esto es)</desc>
+                  <gloss rend="it">i.e.</gloss>
+                  <desc>
+                    <hi>id est</hi> 
+                    <q>esto es</q>
+                  </desc>
+                </valItem>
+                <valItem ident="ita">
+                  <gloss rend="sc">ita</gloss>
+                  <desc>italiano</desc>
                 </valItem>
                 <valItem ident="latc">
-                  <gloss>latc</gloss>
+                  <gloss rend="sc">latc</gloss>
                   <desc>latín clásico</desc>
                 </valItem>
                 <valItem ident="latm">
-                  <gloss>latm</gloss>
+                  <gloss rend="sc">latm</gloss>
                   <desc>latín medieval</desc>
                 </valItem>
                 <valItem ident="lit">
@@ -644,24 +666,36 @@
                   <desc>manuscritos</desc>
                 </valItem>
                 <valItem ident="sc">
-                  <gloss>sc</gloss>
-                  <desc>scilicet (a saber)</desc>
+                  <gloss rend="it">sc</gloss>
+                  <desc>
+                    <hi>scilicet</hi> 
+                    <q>a saber</q>
+                  </desc>
                 </valItem>
                 <valItem ident="sicb">
-                  <gloss>[sic]</gloss>
-                  <desc>"sic" entre corchetes</desc>
+                  <gloss rend="it">[sic]</gloss>
+                  <desc>
+                    <hi>sic</hi> 
+                    <q>así</q> (entre corchetes)
+                  </desc>
                 </valItem>
                 <valItem ident="sv">
-                  <gloss>s.v.</gloss>
-                  <desc>sub voce (bajo la voz: en la entrada del lexema)</desc>
+                  <gloss rend="it">s.v.</gloss>
+                  <desc>
+                    <hi>sub voce</hi>
+                    <q>bajo la voz</q> (en la entrada del lexema)
+                  </desc>
                 </valItem>
                 <valItem ident="uncert">
-                  <gloss>uncertainty</gloss>
-                  <desc>Inserts `(?)`.</desc>
+                  <gloss>incertidumbre</gloss>
+                  <desc>`(?)`</desc>
                 </valItem>
                 <valItem ident="viz">
-                  <gloss>viz.</gloss>
-                  <desc>videlicet (a saber)</desc>
+                  <gloss rend="it">viz.</gloss>
+                  <desc>
+                    <hi>videlicet</hi> 
+                    <q>a saber</q>
+                  </desc>
                 </valItem>
               </valList>
             </attDef>
