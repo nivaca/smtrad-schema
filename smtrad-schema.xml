@@ -611,6 +611,10 @@
                   <gloss>eils</gloss>
                   <desc>ediciones incunables latinas</desc>
                 </valItem>
+                <valItem ident="enm">
+                  <gloss>enm</gloss>
+                  <desc>inglés medio</desc>
+                </valItem>
                 <valItem ident="fl">
                   <gloss>fl.</gloss>
                   <desc>floreció</desc>
