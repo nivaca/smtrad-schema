@@ -699,8 +699,8 @@
                 </valItem>
               </valList>
             </attDef>
-            <attDef ident="type" usage="opt" mode="change">
-              <valList type="closed" mode="add">
+            <attDef ident="type" usage="opt" mode="replace">
+              <valList type="closed" mode="replace">
                 <valItem ident="check">
                   <gloss>check</gloss>
                   <desc>remember to check before publishing</desc>
