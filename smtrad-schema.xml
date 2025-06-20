@@ -700,7 +700,7 @@
               </valList>
             </attDef>
             <attDef ident="type" usage="opt" mode="change">
-              <valList type="open" mode="add">
+              <valList type="closed" mode="add">
                 <valItem ident="check">
                   <gloss>check</gloss>
                   <desc>remember to check before publishing</desc>
