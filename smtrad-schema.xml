@@ -645,6 +645,10 @@
                   <gloss rend="sc">ita</gloss>
                   <desc>italiano</desc>
                 </valItem>
+                <valItem ident="lat">
+                  <gloss rend="sc">lat</gloss>
+                  <desc>latín</desc>
+                </valItem>
                 <valItem ident="latc">
                   <gloss rend="sc">latc</gloss>
                   <desc>latín clásico</desc>
