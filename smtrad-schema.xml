@@ -683,6 +683,12 @@
                     <q>así</q> (entre corchetes)
                   </desc>
                 </valItem>
+                <valItem ident="spa">
+                  <gloss rend="sc">spa</gloss>
+                  <desc>
+                    español
+                  </desc>
+                </valItem>
                 <valItem ident="sv">
                   <gloss rend="it">s.v.</gloss>
                   <desc>
