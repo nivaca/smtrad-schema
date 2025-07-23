@@ -604,6 +604,10 @@
                   <gloss rend="sc">cym</gloss>
                   <desc>galés</desc>
                 </valItem>
+                <valItem ident="deu">
+                  <gloss rend="sc">deu</gloss>
+                  <desc>alemán</desc>
+                </valItem>
                 <valItem ident="ec">
                   <gloss rend="it">e.c.</gloss>
                   <desc>Era Común</desc>
@@ -677,7 +681,7 @@
                   <gloss>
                     proverbio faltante en las <abbr ana="eils"/>
                   </gloss>
-                  <desc>
+                  <desc xml:lang="spa">
                     Este proverbio y la respuesta de Marcolfo 
                     no se encuentran en las <abbr ana="eils"/> ni, 
                     por consiguiente, 
