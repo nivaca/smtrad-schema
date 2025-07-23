@@ -673,6 +673,17 @@
                   <gloss>mss</gloss>
                   <desc>manuscritos</desc>
                 </valItem>
+                <valItem ident="pfe">
+                  <gloss>
+                    proverbio faltante en las <abbr ana="eils"/>
+                  </gloss>
+                  <desc>
+                    Este proverbio y la respuesta de Marcolfo 
+                    no se encuentran en las <abbr ana="eils"/> ni, 
+                    por consiguiente, 
+                    en las traducciones de la época.
+                  </desc>
+                </valItem>
                 <valItem ident="sc">
                   <gloss rend="it">sc</gloss>
                   <desc>
