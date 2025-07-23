@@ -634,6 +634,10 @@
                     <q>floreció</q>
                   </desc>
                 </valItem>
+                <valItem ident="grc">
+                  <gloss rend="sc">grc</gloss>
+                  <desc>griego clásico</desc>
+                </valItem>
                 <valItem ident="ie">
                   <gloss rend="it">i.e.</gloss>
                   <desc>
