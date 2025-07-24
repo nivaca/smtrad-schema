@@ -715,6 +715,14 @@
                     <q>bajo la voz</q> (en la entrada del lexema)
                   </desc>
                 </valItem>
+                <valItem ident="ssvv">
+                  <gloss rend="it">ss.vv.</gloss>
+                  <desc>
+                    <hi>sub vocibus</hi>
+                    <q>bajo las voces</q> 
+                    (en la entradas del lexema)
+                  </desc>
+                </valItem>
                 <valItem ident="uncert">
                   <gloss>incertidumbre</gloss>
                   <desc>`(?)`</desc>

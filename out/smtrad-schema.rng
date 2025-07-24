@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-07-23T23:31:20Z. . 
+Schema generated from ODD source 2025-07-24T13:54:28Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -6398,6 +6398,8 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(spa) español </a:documentation>
                   <value>sv</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.v.) sub voce bajo la voz (en la entrada del lexema)</a:documentation>
+                  <value>ssvv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ss.vv.) sub vocibus bajo las voces (en la entradas del lexema)</a:documentation>
                   <value>uncert</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(incertidumbre) `(?)`</a:documentation>
                   <value>viz</value>
