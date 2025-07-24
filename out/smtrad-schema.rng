@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-07-24T13:54:28Z. . 
+Schema generated from ODD source 2025-07-24T14:44:06Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -6348,10 +6348,10 @@ Measures]</a:documentation>
             <attribute name="ana">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
-                  <value>aec</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(a.e.c.) antes de la Era Común</a:documentation>
                   <value>adloc</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ad loc.) ad locum en ese lugar</a:documentation>
+                  <value>aec</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(a.e.c.) antes de la Era Común</a:documentation>
                   <value>c</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(c.) circa cerca de, próximo a, en torno a</a:documentation>
                   <value>cym</value>
@@ -6372,6 +6372,8 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(fl.) floruit floreció</a:documentation>
                   <value>grc</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(grc) griego clásico</a:documentation>
+                  <value>ib</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(‽) ‽ (interrobang)</a:documentation>
                   <value>ie</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(i.e.) id est esto es</a:documentation>
                   <value>ita</value>
@@ -6396,12 +6398,12 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">([sic]) sic así (entre corchetes)</a:documentation>
                   <value>spa</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(spa) español </a:documentation>
-                  <value>sv</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.v.) sub voce bajo la voz (en la entrada del lexema)</a:documentation>
                   <value>ssvv</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ss.vv.) sub vocibus bajo las voces (en la entradas del lexema)</a:documentation>
+                  <value>sv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.v.) sub voce bajo la voz (en la entrada del lexema)</a:documentation>
                   <value>uncert</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(incertidumbre) `(?)`</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(incertidumbre) (?)</a:documentation>
                   <value>viz</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(viz.) videlicet a saber</a:documentation>
                </choice>

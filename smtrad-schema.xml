@@ -583,15 +583,15 @@
             <!-- @ana-->
             <attDef ident="ana" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
-                <valItem ident="aec">
-                  <gloss rend="sc">a.e.c.</gloss>
-                  <desc>antes de la Era Común</desc>
-                </valItem>
                 <valItem ident="adloc">
                   <gloss rend="it">ad loc.</gloss>
                   <desc>
                     <hi>ad locum</hi> <q>en ese lugar</q>
                   </desc>
+                </valItem>
+                <valItem ident="aec">
+                  <gloss rend="sc">a.e.c.</gloss>
+                  <desc>antes de la Era Común</desc>
                 </valItem>
                 <valItem ident="c">
                   <gloss rend="it">c.</gloss>
@@ -641,6 +641,10 @@
                 <valItem ident="grc">
                   <gloss rend="sc">grc</gloss>
                   <desc>griego clásico</desc>
+                </valItem>
+                <valItem ident="ib">
+                  <gloss>‽</gloss>
+                  <desc>‽ (interrobang)</desc>
                 </valItem>
                 <valItem ident="ie">
                   <gloss rend="it">i.e.</gloss>
@@ -708,13 +712,6 @@
                     español
                   </desc>
                 </valItem>
-                <valItem ident="sv">
-                  <gloss rend="it">s.v.</gloss>
-                  <desc>
-                    <hi>sub voce</hi>
-                    <q>bajo la voz</q> (en la entrada del lexema)
-                  </desc>
-                </valItem>
                 <valItem ident="ssvv">
                   <gloss rend="it">ss.vv.</gloss>
                   <desc>
@@ -723,9 +720,16 @@
                     (en la entradas del lexema)
                   </desc>
                 </valItem>
+                <valItem ident="sv">
+                  <gloss rend="it">s.v.</gloss>
+                  <desc>
+                    <hi>sub voce</hi>
+                    <q>bajo la voz</q> (en la entrada del lexema)
+                  </desc>
+                </valItem>
                 <valItem ident="uncert">
                   <gloss>incertidumbre</gloss>
-                  <desc>`(?)`</desc>
+                  <desc>(?)</desc>
                 </valItem>
                 <valItem ident="viz">
                   <gloss rend="it">viz.</gloss>
