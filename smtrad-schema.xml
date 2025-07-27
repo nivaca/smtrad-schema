@@ -627,6 +627,10 @@
                   <gloss rend="sc">eils</gloss>
                   <desc>ediciones incunables latinas</desc>
                 </valItem>
+                <valItem ident="eng">
+                  <gloss rend="sc">eng</gloss>
+                  <desc>inglés</desc>
+                </valItem>
                 <valItem ident="enm">
                   <gloss rend="sc">enm</gloss>
                   <desc>inglés medio</desc>
