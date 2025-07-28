@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-07-28T19:59:25Z. . 
+Schema generated from ODD source 2025-07-28T20:06:13Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -6351,7 +6351,7 @@ Measures]</a:documentation>
                   <value>adloc</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ad loc.) ad locum en ese lugar</a:documentation>
                   <value>aec</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(a.e.c.) antes de la Era Común</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(aec) antes de la Era Común</a:documentation>
                   <value>at</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(at) Antiguo Testamento</a:documentation>
                   <value>c</value>
@@ -6361,9 +6361,9 @@ Measures]</a:documentation>
                   <value>deu</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(deu) alemán</a:documentation>
                   <value>ec</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(e.c.) Era Común</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ec) Era Común</a:documentation>
                   <value>eg</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eg) exempli gratia por ejemplo</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eg.) exempli gratia por ejemplo</a:documentation>
                   <value>eil</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eil) edición incunable latina</a:documentation>
                   <value>eils</value>
@@ -6403,17 +6403,17 @@ Measures]</a:documentation>
                   <value>ss</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ss.) siglos </a:documentation>
                   <value>sc</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sc) scilicet a saber</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sc.) scilicet a saber</a:documentation>
                   <value>sicb</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">([sic]) sic así (entre corchetes)</a:documentation>
                   <value>sm</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(S&amp;M) S&amp;M</a:documentation>
                   <value>spa</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(spa) español </a:documentation>
-                  <value>ssvv</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ss.vv.) sub vocibus bajo las voces (en la entradas del lexema)</a:documentation>
                   <value>sv</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.v.) sub voce bajo la voz (en la entrada del lexema)</a:documentation>
+                  <value>ssvv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ss.vv.) sub vocibus bajo las voces (en la entradas del lexema)</a:documentation>
                   <value>uncert</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(incertidumbre) (?)</a:documentation>
                   <value>viz</value>

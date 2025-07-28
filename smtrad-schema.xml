@@ -586,11 +586,12 @@
                 <valItem ident="adloc">
                   <gloss rend="it">ad loc.</gloss>
                   <desc>
-                    <hi>ad locum</hi> <q>en ese lugar</q>
+                    <hi>ad locum</hi> 
+                    <q>en ese lugar</q>
                   </desc>
                 </valItem>
                 <valItem ident="aec">
-                  <gloss rend="sc">a.e.c.</gloss>
+                  <gloss rend="sc">aec</gloss>
                   <desc>antes de la Era Común</desc>
                 </valItem>
                 <valItem ident="at">
@@ -613,11 +614,11 @@
                   <desc>alemán</desc>
                 </valItem>
                 <valItem ident="ec">
-                  <gloss rend="it">e.c.</gloss>
+                  <gloss rend="it">ec</gloss>
                   <desc>Era Común</desc>
                 </valItem>
                 <valItem ident="eg">
-                  <gloss rend="it">eg</gloss>
+                  <gloss rend="it">eg.</gloss>
                   <desc>
                     <hi>exempli gratia</hi> 
                     <q>por ejemplo</q>
@@ -682,11 +683,11 @@
                   <desc>literalmente</desc>
                 </valItem>
                 <valItem ident="ms">
-                  <gloss>ms</gloss>
+                  <gloss rend="sc">ms</gloss>
                   <desc>manuscrito</desc>
                 </valItem>
                 <valItem ident="mss">
-                  <gloss>mss</gloss>
+                  <gloss rend="sc">mss</gloss>
                   <desc>manuscritos</desc>
                 </valItem>
                 <valItem ident="nt">
@@ -719,7 +720,7 @@
                   </desc>
                 </valItem>
                 <valItem ident="sc">
-                  <gloss rend="it">sc</gloss>
+                  <gloss rend="it">sc.</gloss>
                   <desc>
                     <hi>scilicet</hi> 
                     <q>a saber</q>
@@ -746,19 +747,19 @@
                     español
                   </desc>
                 </valItem>
+                <valItem ident="sv">
+                  <gloss rend="it">s.v.</gloss>
+                  <desc>
+                    <hi>sub voce</hi>
+                    <q>bajo la voz</q> (en la entrada del lexema)
+                  </desc>
+                </valItem>
                 <valItem ident="ssvv">
                   <gloss rend="it">ss.vv.</gloss>
                   <desc>
                     <hi>sub vocibus</hi>
                     <q>bajo las voces</q> 
                     (en la entradas del lexema)
-                  </desc>
-                </valItem>
-                <valItem ident="sv">
-                  <gloss rend="it">s.v.</gloss>
-                  <desc>
-                    <hi>sub voce</hi>
-                    <q>bajo la voz</q> (en la entrada del lexema)
                   </desc>
                 </valItem>
                 <valItem ident="uncert">
