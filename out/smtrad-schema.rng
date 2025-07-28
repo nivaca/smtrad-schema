@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-07-27T02:24:00Z. . 
+Schema generated from ODD source 2025-07-28T15:28:11Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -6393,11 +6393,13 @@ Measures]</a:documentation>
                   <value>mss</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(mss) manuscritos</a:documentation>
                   <value>pfe</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(proverbio faltante en las) Este proverbio y la respuesta de Marcolfo no se encuentran en las  ni, por consiguiente, en las traducciones de la época.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(proverbio faltante en las eils) Este proverbio y la respuesta de Marcolfo no se encuentran en las eils ni, por consiguiente, en las traducciones de la época.</a:documentation>
                   <value>sc</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sc) scilicet a saber</a:documentation>
                   <value>sicb</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">([sic]) sic así (entre corchetes)</a:documentation>
+                  <value>SM</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(S&amp;M) S&amp;M</a:documentation>
                   <value>spa</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(spa) español </a:documentation>
                   <value>ssvv</value>

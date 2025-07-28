@@ -687,11 +687,13 @@
                 </valItem>
                 <valItem ident="pfe">
                   <gloss>
-                    proverbio faltante en las <abbr ana="eils"/>
+                    proverbio faltante en las 
+                    <hi rend="sc">eils</hi>
                   </gloss>
                   <desc xml:lang="spa">
                     Este proverbio y la respuesta de Marcolfo 
-                    no se encuentran en las <abbr ana="eils"/> ni, 
+                    no se encuentran en las 
+                    <hi rend="sc">eils</hi> ni, 
                     por consiguiente, 
                     en las traducciones de la época.
                   </desc>
@@ -708,6 +710,12 @@
                   <desc>
                     <hi>sic</hi> 
                     <q>así</q> (entre corchetes)
+                  </desc>
+                </valItem>
+                <valItem ident="SM">
+                  <gloss>S&amp;M</gloss>
+                  <desc>
+                    <title ref="#SM">S&amp;M</title>
                   </desc>
                 </valItem>
                 <valItem ident="spa">
