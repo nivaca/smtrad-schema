@@ -712,8 +712,10 @@
                     <q>así</q> (entre corchetes)
                   </desc>
                 </valItem>
-                <valItem ident="SM">
-                  <gloss>S&amp;M</gloss>
+                <valItem ident="sm">
+                  <gloss>
+                    <title ref="#SM">S&amp;M</title>
+                  </gloss>
                   <desc>
                     <title ref="#SM">S&amp;M</title>
                   </desc>
