@@ -706,6 +706,18 @@
                     en las traducciones de la época.
                   </desc>
                 </valItem>
+                <valItem ident="s">
+                  <gloss>s.</gloss>
+                  <desc>
+                    siglo
+                  </desc>
+                </valItem>
+                <valItem ident="ss">
+                  <gloss>ss.</gloss>
+                  <desc>
+                    siglos
+                  </desc>
+                </valItem>
                 <valItem ident="sc">
                   <gloss rend="it">sc</gloss>
                   <desc>
