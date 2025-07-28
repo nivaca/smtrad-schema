@@ -752,6 +752,12 @@
                     <q>a saber</q>
                   </desc>
                 </valItem>
+                <valItem ident="zio">
+                  <gloss>Ziol.</gloss>
+                  <desc>
+                    Ziolkowski
+                  </desc>
+                </valItem>
               </valList>
             </attDef>
             <attDef ident="type" usage="opt" mode="replace">
