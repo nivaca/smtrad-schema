@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-07-28T16:47:56Z. . 
+Schema generated from ODD source 2025-07-28T18:57:08Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -6352,6 +6352,8 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ad loc.) ad locum en ese lugar</a:documentation>
                   <value>aec</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(a.e.c.) antes de la Era Común</a:documentation>
+                  <value>at</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(at) Antiguo Testamento</a:documentation>
                   <value>c</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(c.) circa cerca de, próximo a, en torno a</a:documentation>
                   <value>cym</value>
@@ -6392,6 +6394,8 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ms) manuscrito</a:documentation>
                   <value>mss</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(mss) manuscritos</a:documentation>
+                  <value>nt</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(nt) Nuevo Testamento</a:documentation>
                   <value>pfe</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(proverbio faltante en las eils) Este proverbio y la respuesta de Marcolfo no se encuentran en las eils ni, por consiguiente, en las traducciones de la época.</a:documentation>
                   <value>sc</value>
@@ -6410,8 +6414,6 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(incertidumbre) (?)</a:documentation>
                   <value>viz</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(viz.) videlicet a saber</a:documentation>
-                  <value>zio</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Ziol.) Ziolkowski </a:documentation>
                </choice>
             </attribute>
          </optional>

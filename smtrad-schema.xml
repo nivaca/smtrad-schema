@@ -593,6 +593,10 @@
                   <gloss rend="sc">a.e.c.</gloss>
                   <desc>antes de la Era Común</desc>
                 </valItem>
+                <valItem ident="at">
+                  <gloss rend="sc">at</gloss>
+                  <desc>Antiguo Testamento</desc>
+                </valItem>
                 <valItem ident="c">
                   <gloss rend="it">c.</gloss>
                   <desc>
@@ -685,6 +689,10 @@
                   <gloss>mss</gloss>
                   <desc>manuscritos</desc>
                 </valItem>
+                <valItem ident="nt">
+                  <gloss rend="sc">nt</gloss>
+                  <desc>Nuevo Testamento</desc>
+                </valItem>
                 <valItem ident="pfe">
                   <gloss>
                     proverbio faltante en las 
@@ -752,12 +760,12 @@
                     <q>a saber</q>
                   </desc>
                 </valItem>
-                <valItem ident="zio">
+                <!--<valItem ident="zio">
                   <gloss>Ziol.</gloss>
                   <desc>
                     Ziolkowski
                   </desc>
-                </valItem>
+                </valItem>-->
               </valList>
             </attDef>
             <attDef ident="type" usage="opt" mode="replace">
