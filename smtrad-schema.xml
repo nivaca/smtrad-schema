@@ -605,6 +605,18 @@
                     <q>cerca de, próximo a, en torno a</q>
                   </desc>
                 </valItem>
+                <valItem ident="cap">
+                  <gloss rend="it">cap.</gloss>
+                  <desc>
+                    capítulo
+                  </desc>
+                </valItem>
+                <valItem ident="caps">
+                  <gloss rend="it">caps.</gloss>
+                  <desc>
+                    capítulos
+                  </desc>
+                </valItem>
                 <valItem ident="cym">
                   <gloss rend="sc">cym</gloss>
                   <desc>galés</desc>
