@@ -936,7 +936,7 @@
         
         <constraintSpec ident="foreign-in-ref-must-contain-abbr-sv" scheme="schematron">
           <desc>
-            ref element that is parent of foreign must contain abbr with ana="sv"
+            ref element that is parent of foreign must contain abbr with @ana="sv" or @ana="ssvv"
           </desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:ref[child::tei:foreign]">
