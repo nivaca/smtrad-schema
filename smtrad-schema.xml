@@ -934,13 +934,13 @@
         </constraintSpec>
         
         
-        <constraintSpec ident="foreign-in-ref-must-contain-abbr-sv" scheme="schematron">
+        <constraintSpec ident="ref-with-foreign-lexeme-must-contain-abbr-sv" scheme="schematron">
           <desc>
-            ref element that is parent of foreign must contain abbr with @ana="sv" or @ana="ssvv"
+            ref element containing foreign with ana="lexeme" must also contain abbr with ana="sv" or ana="ssvv"
           </desc>
           <constraint>
-            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:ref[child::tei:foreign]">
-              <report test="not(tei:abbr[@ana='sv'] or tei:abbr[@ana='ssvv'])">Error: foreign element that is a child of ref must contain abbr with ana="sv"</report>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:ref[tei:foreign[@ana='lexeme']]">
+              <report test="not(tei:abbr[@ana='sv' or @ana='ssvv'])">Error: ref element containing foreign with ana="lexeme" must also contain abbr with ana="sv" or ana="ssvv"</report>
             </rule>
           </constraint>
         </constraintSpec>
