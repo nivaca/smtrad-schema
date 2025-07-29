@@ -788,9 +788,9 @@
                 <!--<valItem ident="zio">
                   <gloss>Ziol.</gloss>
                   <desc>
-                    Ziolkowski
+                  Ziolkowski
                   </desc>
-                </valItem>-->
+                  </valItem>-->
               </valList>
             </attDef>
             <attDef ident="type" usage="opt" mode="replace">
@@ -921,6 +921,17 @@
           </constraint>
         </constraintSpec>
         
+        
+        <constraintSpec ident="foreign-in-ref-must-have-lexeme-ana" scheme="schematron">
+          <desc>
+            foreign element that is a direct child of ref must have ana="lexeme"
+          </desc>
+          <constraint>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:foreign[parent::tei:ref]">
+              <report test="not(@ana='lexeme')">Error: foreign element that is a direct child of ref must have ana="lexeme"</report>
+            </rule>
+          </constraint>
+        </constraintSpec>
         
       </schemaSpec>
     </body>

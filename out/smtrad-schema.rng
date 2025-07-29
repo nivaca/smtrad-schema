@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-07-28T20:11:41Z. . 
+Schema generated from ODD source 2025-07-29T15:21:02Z. . 
 TEI Edition: P5 Version 4.9.0. Last updated on 24th January 2025, revision f73186978 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.9.0/ 
   
@@ -16981,6 +16981,13 @@ Suggested values include: 1] pilcrow (pilcrow); 2] virgula (virgula); 3] punctus
             id="SMTrad-element-corresp-not-just-hash-constraint-rule-65">
       <rule xmlns:rng="http://relaxng.org/ns/structure/1.0" context="*[@corresp]">
          <report test="@corresp='#'">Error: <name/> element has corresp="#" which is an empty reference. The corresp attribute should reference a valid XML ID after the hash.</report>
+      </rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="SMTrad-foreign-in-ref-must-have-lexeme-ana-constraint-rule-66">
+      <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+            context="tei:foreign[parent::tei:ref]">
+         <report test="not(@ana='lexeme')">Error: foreign element that is a direct child of ref must have ana="lexeme"</report>
       </rule>
    </pattern>
 </grammar>
