@@ -940,7 +940,7 @@
           </desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:ref[child::tei:foreign]">
-              <report test="not(tei:abbr[@ana='sv']) or not(tei:abbr[@ana='ssvv'])">Error: foreign element that is a child of ref must contain abbr with ana="sv"</report>
+              <report test="not(tei:abbr[@ana='sv'] or tei:abbr[@ana='ssvv'])">Error: foreign element that is a child of ref must contain abbr with ana="sv"</report>
             </rule>
           </constraint>
         </constraintSpec>
