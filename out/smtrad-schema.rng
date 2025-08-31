@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-08-31T00:18:24Z. . 
+Schema generated from ODD source 2025-08-31T16:16:10Z. . 
 TEI Edition: P5 Version 4.10.1. Last updated on 28th August 2025, revision 3cd82e7a3 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.1/ 
   
@@ -6356,6 +6356,8 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(at) Antiguo Testamento</a:documentation>
                   <value>c</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(c.) circa cerca de, próximo a, en torno a</a:documentation>
+                  <value>bj</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bj) Biblia de Jerusalén</a:documentation>
                   <value>bo</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bo) Biblia del Oso</a:documentation>
                   <value>cap</value>
