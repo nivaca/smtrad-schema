@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-08-31T00:13:15Z. . 
+Schema generated from ODD source 2025-08-31T00:18:24Z. . 
 TEI Edition: P5 Version 4.10.1. Last updated on 28th August 2025, revision 3cd82e7a3 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.1/ 
   
@@ -6366,6 +6366,8 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cym) galés</a:documentation>
                   <value>deu</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(deu) alemán</a:documentation>
+                  <value>drv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(drv) Biblia Douay-Reims</a:documentation>
                   <value>ec</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ec) Era Común</a:documentation>
                   <value>eg</value>

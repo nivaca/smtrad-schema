@@ -631,6 +631,10 @@
                   <gloss rend="sc">deu</gloss>
                   <desc>alemán</desc>
                 </valItem>
+                <valItem ident="drv">
+                  <gloss rend="sc">drv</gloss>
+                  <desc>Biblia Douay-Reims</desc>
+                </valItem>
                 <valItem ident="ec">
                   <gloss rend="it">ec</gloss>
                   <desc>Era Común</desc>
