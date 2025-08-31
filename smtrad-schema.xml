@@ -605,6 +605,12 @@
                     <q>cerca de, próximo a, en torno a</q>
                   </desc>
                 </valItem>
+                <valItem ident="bo">
+                  <gloss rend="sc">bo</gloss>
+                  <desc>
+                    <hi>Biblia del Oso</hi> 
+                  </desc>
+                </valItem>
                 <valItem ident="cap">
                   <gloss rend="it">cap.</gloss>
                   <desc>
