@@ -829,6 +829,10 @@
                   <gloss rend="sc">acc</gloss>
                   <desc>acusativo</desc>
                 </valItem>
+                <valItem ident="act">
+                  <gloss rend="sc">act</gloss>
+                  <desc>activo</desc>
+                </valItem>
                 <valItem ident="adj">
                   <gloss rend="sc">adj</gloss>
                   <desc>adjetivo</desc>
@@ -872,6 +876,10 @@
                 <valItem ident="nom">
                   <gloss rend="sc">nom</gloss>
                   <desc>nominativo</desc>
+                </valItem>
+                <valItem ident="pass">
+                  <gloss rend="sc">pass</gloss>
+                  <desc>pasivo</desc>
                 </valItem>
                 <valItem ident="pl">
                   <gloss rend="sc">pl</gloss>
