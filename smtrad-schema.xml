@@ -51,6 +51,21 @@
         </constraintSpec>
         
         
+        <!-- seg -->
+        <elementSpec ident="seg" module="core" mode="change">
+          <attList>
+            <attDef ident="type" usage="opt" mode="change">
+              <valList type="closed" mode="add">
+                <valItem ident="leipzig">
+                  <gloss>Leipzig gloss</gloss>
+                  <desc>
+                    Segment used for Leipzig-style interlinear glossing
+                  </desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
         
         
         <!-- ab -->
