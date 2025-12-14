@@ -827,6 +827,18 @@
                   <gloss rend="sc">acc</gloss>
                   <desc>acusativo</desc>
                 </valItem>
+                <valItem ident="adj">
+                  <gloss rend="sc">adj</gloss>
+                  <desc>adjetivo</desc>
+                </valItem>
+                <valItem ident="adv">
+                  <gloss rend="sc">adv</gloss>
+                  <desc>adverbio</desc>
+                </valItem>
+                <valItem ident="conj">
+                  <gloss rend="sc">conj</gloss>
+                  <desc>conjunción</desc>
+                </valItem>
                 <valItem ident="dat">
                   <gloss rend="sc">dat.</gloss>
                   <desc>dativo</desc>
