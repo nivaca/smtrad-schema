@@ -706,6 +706,10 @@
                     <q>esto es</q>
                   </desc>
                 </valItem>
+                <valItem ident="imp">
+                  <gloss rend="sc">imp.</gloss>
+                  <desc>imperativo</desc>
+                </valItem>
                 <valItem ident="inf">
                   <gloss rend="sc">inf.</gloss>
                   <desc>infinitivo</desc>
