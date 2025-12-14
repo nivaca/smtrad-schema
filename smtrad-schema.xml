@@ -903,6 +903,10 @@
                   <gloss rend="sc">sbjv</gloss>
                   <desc>subjuntivo</desc>
                 </valItem>
+                <valItem ident="sust">
+                  <gloss rend="sc">sust</gloss>
+                  <desc>sustantivo</desc>
+                </valItem>
               </valList>
             </attDef>
             <attDef ident="type" usage="opt" mode="replace">
