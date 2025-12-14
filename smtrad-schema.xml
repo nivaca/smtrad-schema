@@ -875,6 +875,10 @@
                   <gloss rend="sc">pl</gloss>
                   <desc>plural</desc>
                 </valItem>
+                <valItem ident="plup">
+                  <gloss rend="sc">plup</gloss>
+                  <desc>pluscuamperfecto</desc>
+                </valItem>
                 <valItem ident="pst">
                   <gloss rend="sc">pst</gloss>
                   <desc>pasado</desc>
