@@ -584,11 +584,11 @@
             <attDef ident="ana" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="abl">
-                  <gloss rend="sc">abl.</gloss>
+                  <gloss rend="sc">abl</gloss>
                   <desc>ablativo</desc>
                 </valItem>
                 <valItem ident="acc">
-                  <gloss rend="sc">acc.</gloss>
+                  <gloss rend="sc">acc</gloss>
                   <desc>acusativo</desc>
                 </valItem>
                 <valItem ident="adloc">
@@ -687,8 +687,12 @@
                     <q>floreció</q>
                   </desc>
                 </valItem>
+                <valItem ident="fut">
+                  <gloss rend="sc">fut</gloss>
+                  <desc>futuro</desc>
+                </valItem>
                 <valItem ident="gen">
-                  <gloss rend="sc">gen.</gloss>
+                  <gloss rend="sc">gen</gloss>
                   <desc>genitivo</desc>
                 </valItem>
                 <valItem ident="grc">
@@ -710,8 +714,16 @@
                   <gloss rend="sc">imp.</gloss>
                   <desc>imperativo</desc>
                 </valItem>
+                <valItem ident="iprf">
+                  <gloss rend="sc">iprf</gloss>
+                  <desc>imperfecto</desc>
+                </valItem>
+                <valItem ident="ind">
+                  <gloss rend="sc">ind</gloss>
+                  <desc>indicativo</desc>
+                </valItem>
                 <valItem ident="inf">
-                  <gloss rend="sc">inf.</gloss>
+                  <gloss rend="sc">inf</gloss>
                   <desc>infinitivo</desc>
                 </valItem>
                 <valItem ident="ita">
@@ -743,7 +755,7 @@
                   <desc>manuscritos</desc>
                 </valItem>
                 <valItem ident="nom">
-                  <gloss rend="sc">nom.</gloss>
+                  <gloss rend="sc">nom</gloss>
                   <desc>nominativo</desc>
                 </valItem>
                 <valItem ident="nt">
@@ -763,11 +775,35 @@
                     en las traducciones de la época.
                   </desc>
                 </valItem>
+                <valItem ident="pl">
+                  <gloss rend="sc">pl</gloss>
+                  <desc>plural</desc>
+                </valItem>
+                <valItem ident="pst">
+                  <gloss rend="sc">pst</gloss>
+                  <desc>pasado</desc>
+                </valItem>
+                <valItem ident="prs">
+                  <gloss rend="sc">prs</gloss>
+                  <desc>presente</desc>
+                </valItem>
+                <valItem ident="prf">
+                  <gloss rend="sc">prf</gloss>
+                  <desc>perfecto</desc>
+                </valItem>
+                <valItem ident="ptcp">
+                  <gloss rend="sc">ptcp</gloss>
+                  <desc>participio</desc>
+                </valItem>
                 <valItem ident="s">
                   <gloss>s.</gloss>
                   <desc>
                     siglo
                   </desc>
+                </valItem>
+                <valItem ident="sg">
+                  <gloss rend="sc">sg</gloss>
+                  <desc>singular</desc>
                 </valItem>
                 <valItem ident="ss">
                   <gloss>ss.</gloss>
