@@ -780,8 +780,24 @@
                     <q>a saber</q>
                   </desc>
                 </valItem>
+                <!--  NOMBRES  -->
+                <valItem ident="Bee">
+                  <gloss>Bee.</gloss>
+                  <desc>Beecher</desc>
+                </valItem>
+                <valItem ident="Brad">
+                  <gloss>Brad.</gloss>
+                  <desc>Bradbury</desc>
+                </valItem>
+                <valItem ident="Mar">
+                  <gloss>Mar.</gloss>
+                  <desc>Marini</desc>
+                </valItem>
+                <valItem ident="Ziol">
+                  <gloss>Ziol.</gloss>
+                  <desc>Ziolkowski</desc>
+                </valItem>
                 <!-- IDIOMAS  -->
-                
                 <valItem ident="cym">
                   <gloss rend="sc">cym</gloss>
                   <desc>galés</desc>
