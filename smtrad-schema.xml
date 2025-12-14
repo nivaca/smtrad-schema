@@ -583,6 +583,14 @@
             <!-- @ana-->
             <attDef ident="ana" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
+                <valItem ident="abl">
+                  <gloss rend="sc">abl.</gloss>
+                  <desc>ablativo</desc>
+                </valItem>
+                <valItem ident="acc">
+                  <gloss rend="sc">acc.</gloss>
+                  <desc>acusativo</desc>
+                </valItem>
                 <valItem ident="adloc">
                   <gloss rend="it">ad loc.</gloss>
                   <desc>
@@ -633,6 +641,10 @@
                   <gloss rend="sc">cym</gloss>
                   <desc>galés</desc>
                 </valItem>
+                <valItem ident="dat">
+                  <gloss rend="sc">dat.</gloss>
+                  <desc>dativo</desc>
+                </valItem>
                 <valItem ident="deu">
                   <gloss rend="sc">deu</gloss>
                   <desc>alemán</desc>
@@ -674,6 +686,10 @@
                     <hi>floruit</hi>
                     <q>floreció</q>
                   </desc>
+                </valItem>
+                <valItem ident="gen">
+                  <gloss rend="sc">gen.</gloss>
+                  <desc>genitivo</desc>
                 </valItem>
                 <valItem ident="grc">
                   <gloss rend="sc">grc</gloss>
@@ -717,6 +733,10 @@
                 <valItem ident="mss">
                   <gloss rend="sc">mss</gloss>
                   <desc>manuscritos</desc>
+                </valItem>
+                <valItem ident="nom">
+                  <gloss rend="sc">nom.</gloss>
+                  <desc>nominativo</desc>
                 </valItem>
                 <valItem ident="nt">
                   <gloss rend="sc">nt</gloss>
