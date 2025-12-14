@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2025-12-14T19:04:27Z. . 
+Schema generated from ODD source 2025-12-14T19:12:14Z. . 
 TEI Edition: P5 Version 4.10.2. Last updated on 4th September 2025, revision bcfa98f42 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.2/ 
   
@@ -6348,10 +6348,6 @@ Measures]</a:documentation>
             <attribute name="ana">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
-                  <value>abl</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abl) ablativo</a:documentation>
-                  <value>acc</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(acc) acusativo</a:documentation>
                   <value>adloc</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ad loc.) ad locum en ese lugar</a:documentation>
                   <value>aec</value>
@@ -6368,10 +6364,6 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cap.) capítulo </a:documentation>
                   <value>caps</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(caps.) capítulos </a:documentation>
-                  <value>cym</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cym) galés</a:documentation>
-                  <value>dat</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(dat.) dativo</a:documentation>
                   <value>deu</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(deu) alemán</a:documentation>
                   <value>drv</value>
@@ -6384,30 +6376,48 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eil) edición incunable latina</a:documentation>
                   <value>eils</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eils) ediciones incunables latinas</a:documentation>
-                  <value>eng</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eng) inglés</a:documentation>
-                  <value>enm</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(enm) inglés medio</a:documentation>
                   <value>fl</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(fl.) floruit floreció</a:documentation>
-                  <value>fut</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(fut) futuro</a:documentation>
-                  <value>gen</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(gen) genitivo</a:documentation>
-                  <value>grc</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(grc) griego clásico</a:documentation>
                   <value>ib</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(‽) ‽ (interrobang)</a:documentation>
                   <value>ie</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(i.e.) id est esto es</a:documentation>
-                  <value>imp</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(imp.) imperativo</a:documentation>
-                  <value>iprf</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(iprf) imperfecto</a:documentation>
-                  <value>ind</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ind) indicativo</a:documentation>
-                  <value>inf</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inf) infinitivo</a:documentation>
+                  <value>lit</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(lit.) literalmente</a:documentation>
+                  <value>ms</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ms) manuscrito</a:documentation>
+                  <value>mss</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(mss) manuscritos</a:documentation>
+                  <value>nt</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(nt) Nuevo Testamento</a:documentation>
+                  <value>pfe</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(proverbio faltante en las eils) Este proverbio y la respuesta de Marcolfo no se encuentran en las eils ni, por consiguiente, en las traducciones de la época.</a:documentation>
+                  <value>s</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.) siglo </a:documentation>
+                  <value>ss</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ss.) siglos </a:documentation>
+                  <value>sc</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sc.) scilicet a saber</a:documentation>
+                  <value>sicb</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">([sic]) sic así (entre corchetes)</a:documentation>
+                  <value>sm</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(S&amp;M) S&amp;M</a:documentation>
+                  <value>sv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.v.) sub voce bajo la voz (en la entrada del lexema)</a:documentation>
+                  <value>ssvv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ss.vv.) sub vocibus bajo las voces (en la entradas del lexema)</a:documentation>
+                  <value>uncert</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(incertidumbre) (?)</a:documentation>
+                  <value>viz</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(viz.) videlicet a saber</a:documentation>
+                  <value>cym</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cym) galés</a:documentation>
+                  <value>eng</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eng) inglés</a:documentation>
+                  <value>enm</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(enm) inglés medio</a:documentation>
+                  <value>grc</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(grc) griego clásico</a:documentation>
                   <value>ita</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ita) italiano</a:documentation>
                   <value>lat</value>
@@ -6416,18 +6426,28 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(latc) latín clásico</a:documentation>
                   <value>latm</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(latm) latín medieval</a:documentation>
-                  <value>lit</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(lit.) literalmente</a:documentation>
-                  <value>ms</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ms) manuscrito</a:documentation>
-                  <value>mss</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(mss) manuscritos</a:documentation>
+                  <value>spa</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(spa) español </a:documentation>
+                  <value>abl</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(abl) ablativo</a:documentation>
+                  <value>acc</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(acc) acusativo</a:documentation>
+                  <value>dat</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(dat.) dativo</a:documentation>
+                  <value>fut</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(fut) futuro</a:documentation>
+                  <value>gen</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(gen) genitivo</a:documentation>
+                  <value>imp</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(imp.) imperativo</a:documentation>
+                  <value>iprf</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(iprf) imperfecto</a:documentation>
+                  <value>ind</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ind) indicativo</a:documentation>
+                  <value>inf</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inf) infinitivo</a:documentation>
                   <value>nom</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(nom) nominativo</a:documentation>
-                  <value>nt</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(nt) Nuevo Testamento</a:documentation>
-                  <value>pfe</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(proverbio faltante en las eils) Este proverbio y la respuesta de Marcolfo no se encuentran en las eils ni, por consiguiente, en las traducciones de la época.</a:documentation>
                   <value>pl</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pl) plural</a:documentation>
                   <value>pst</value>
@@ -6438,28 +6458,10 @@ Measures]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(prf) perfecto</a:documentation>
                   <value>ptcp</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ptcp) participio</a:documentation>
-                  <value>s</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.) siglo </a:documentation>
                   <value>sg</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sg) singular</a:documentation>
-                  <value>ss</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ss.) siglos </a:documentation>
-                  <value>sc</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sc.) scilicet a saber</a:documentation>
-                  <value>sicb</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">([sic]) sic así (entre corchetes)</a:documentation>
-                  <value>sm</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(S&amp;M) S&amp;M</a:documentation>
-                  <value>spa</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(spa) español </a:documentation>
-                  <value>sv</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s.v.) sub voce bajo la voz (en la entrada del lexema)</a:documentation>
-                  <value>ssvv</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ss.vv.) sub vocibus bajo las voces (en la entradas del lexema)</a:documentation>
-                  <value>uncert</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(incertidumbre) (?)</a:documentation>
-                  <value>viz</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(viz.) videlicet a saber</a:documentation>
+                  <value>sbjv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sbjv) subjuntivo</a:documentation>
                </choice>
             </attribute>
          </optional>

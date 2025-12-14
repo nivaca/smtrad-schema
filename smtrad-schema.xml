@@ -583,14 +583,6 @@
             <!-- @ana-->
             <attDef ident="ana" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
-                <valItem ident="abl">
-                  <gloss rend="sc">abl</gloss>
-                  <desc>ablativo</desc>
-                </valItem>
-                <valItem ident="acc">
-                  <gloss rend="sc">acc</gloss>
-                  <desc>acusativo</desc>
-                </valItem>
                 <valItem ident="adloc">
                   <gloss rend="it">ad loc.</gloss>
                   <desc>
@@ -637,14 +629,6 @@
                     capítulos
                   </desc>
                 </valItem>
-                <valItem ident="cym">
-                  <gloss rend="sc">cym</gloss>
-                  <desc>galés</desc>
-                </valItem>
-                <valItem ident="dat">
-                  <gloss rend="sc">dat.</gloss>
-                  <desc>dativo</desc>
-                </valItem>
                 <valItem ident="deu">
                   <gloss rend="sc">deu</gloss>
                   <desc>alemán</desc>
@@ -672,32 +656,12 @@
                   <gloss rend="sc">eils</gloss>
                   <desc>ediciones incunables latinas</desc>
                 </valItem>
-                <valItem ident="eng">
-                  <gloss rend="sc">eng</gloss>
-                  <desc>inglés</desc>
-                </valItem>
-                <valItem ident="enm">
-                  <gloss rend="sc">enm</gloss>
-                  <desc>inglés medio</desc>
-                </valItem>
                 <valItem ident="fl">
                   <gloss rend="it">fl.</gloss>
                   <desc>
                     <hi>floruit</hi>
                     <q>floreció</q>
                   </desc>
-                </valItem>
-                <valItem ident="fut">
-                  <gloss rend="sc">fut</gloss>
-                  <desc>futuro</desc>
-                </valItem>
-                <valItem ident="gen">
-                  <gloss rend="sc">gen</gloss>
-                  <desc>genitivo</desc>
-                </valItem>
-                <valItem ident="grc">
-                  <gloss rend="sc">grc</gloss>
-                  <desc>griego clásico</desc>
                 </valItem>
                 <valItem ident="ib">
                   <gloss>‽</gloss>
@@ -710,38 +674,6 @@
                     <q>esto es</q>
                   </desc>
                 </valItem>
-                <valItem ident="imp">
-                  <gloss rend="sc">imp.</gloss>
-                  <desc>imperativo</desc>
-                </valItem>
-                <valItem ident="iprf">
-                  <gloss rend="sc">iprf</gloss>
-                  <desc>imperfecto</desc>
-                </valItem>
-                <valItem ident="ind">
-                  <gloss rend="sc">ind</gloss>
-                  <desc>indicativo</desc>
-                </valItem>
-                <valItem ident="inf">
-                  <gloss rend="sc">inf</gloss>
-                  <desc>infinitivo</desc>
-                </valItem>
-                <valItem ident="ita">
-                  <gloss rend="sc">ita</gloss>
-                  <desc>italiano</desc>
-                </valItem>
-                <valItem ident="lat">
-                  <gloss rend="sc">lat</gloss>
-                  <desc>latín</desc>
-                </valItem>
-                <valItem ident="latc">
-                  <gloss rend="sc">latc</gloss>
-                  <desc>latín clásico</desc>
-                </valItem>
-                <valItem ident="latm">
-                  <gloss rend="sc">latm</gloss>
-                  <desc>latín medieval</desc>
-                </valItem>
                 <valItem ident="lit">
                   <gloss>lit.</gloss>
                   <desc>literalmente</desc>
@@ -753,10 +685,6 @@
                 <valItem ident="mss">
                   <gloss rend="sc">mss</gloss>
                   <desc>manuscritos</desc>
-                </valItem>
-                <valItem ident="nom">
-                  <gloss rend="sc">nom</gloss>
-                  <desc>nominativo</desc>
                 </valItem>
                 <valItem ident="nt">
                   <gloss rend="sc">nt</gloss>
@@ -775,35 +703,11 @@
                     en las traducciones de la época.
                   </desc>
                 </valItem>
-                <valItem ident="pl">
-                  <gloss rend="sc">pl</gloss>
-                  <desc>plural</desc>
-                </valItem>
-                <valItem ident="pst">
-                  <gloss rend="sc">pst</gloss>
-                  <desc>pasado</desc>
-                </valItem>
-                <valItem ident="prs">
-                  <gloss rend="sc">prs</gloss>
-                  <desc>presente</desc>
-                </valItem>
-                <valItem ident="prf">
-                  <gloss rend="sc">prf</gloss>
-                  <desc>perfecto</desc>
-                </valItem>
-                <valItem ident="ptcp">
-                  <gloss rend="sc">ptcp</gloss>
-                  <desc>participio</desc>
-                </valItem>
                 <valItem ident="s">
                   <gloss>s.</gloss>
                   <desc>
                     siglo
                   </desc>
-                </valItem>
-                <valItem ident="sg">
-                  <gloss rend="sc">sg</gloss>
-                  <desc>singular</desc>
                 </valItem>
                 <valItem ident="ss">
                   <gloss>ss.</gloss>
@@ -833,12 +737,6 @@
                     <title ref="#SM">S&amp;M</title>
                   </desc>
                 </valItem>
-                <valItem ident="spa">
-                  <gloss rend="sc">spa</gloss>
-                  <desc>
-                    español
-                  </desc>
-                </valItem>
                 <valItem ident="sv">
                   <gloss rend="it">s.v.</gloss>
                   <desc>
@@ -865,12 +763,115 @@
                     <q>a saber</q>
                   </desc>
                 </valItem>
-                <!--<valItem ident="zio">
-                  <gloss>Ziol.</gloss>
+                <!-- IDIOMAS  -->
+                
+                <valItem ident="cym">
+                  <gloss rend="sc">cym</gloss>
+                  <desc>galés</desc>
+                </valItem>
+                <valItem ident="eng">
+                  <gloss rend="sc">eng</gloss>
+                  <desc>inglés</desc>
+                </valItem>
+                <valItem ident="enm">
+                  <gloss rend="sc">enm</gloss>
+                  <desc>inglés medio</desc>
+                </valItem>
+                <valItem ident="grc">
+                  <gloss rend="sc">grc</gloss>
+                  <desc>griego clásico</desc>
+                </valItem>
+                <valItem ident="ita">
+                  <gloss rend="sc">ita</gloss>
+                  <desc>italiano</desc>
+                </valItem>
+                <valItem ident="lat">
+                  <gloss rend="sc">lat</gloss>
+                  <desc>latín</desc>
+                </valItem>
+                <valItem ident="latc">
+                  <gloss rend="sc">latc</gloss>
+                  <desc>latín clásico</desc>
+                </valItem>
+                <valItem ident="latm">
+                  <gloss rend="sc">latm</gloss>
+                  <desc>latín medieval</desc>
+                </valItem>
+                <valItem ident="spa">
+                  <gloss rend="sc">spa</gloss>
                   <desc>
-                  Ziolkowski
+                    español
                   </desc>
-                  </valItem>-->
+                </valItem>
+                <!--   LEIPZIG   -->
+                <valItem ident="abl">
+                  <gloss rend="sc">abl</gloss>
+                  <desc>ablativo</desc>
+                </valItem>
+                <valItem ident="acc">
+                  <gloss rend="sc">acc</gloss>
+                  <desc>acusativo</desc>
+                </valItem>
+                <valItem ident="dat">
+                  <gloss rend="sc">dat.</gloss>
+                  <desc>dativo</desc>
+                </valItem>
+                <valItem ident="fut">
+                  <gloss rend="sc">fut</gloss>
+                  <desc>futuro</desc>
+                </valItem>
+                <valItem ident="gen">
+                  <gloss rend="sc">gen</gloss>
+                  <desc>genitivo</desc>
+                </valItem>
+                <valItem ident="imp">
+                  <gloss rend="sc">imp.</gloss>
+                  <desc>imperativo</desc>
+                </valItem>
+                <valItem ident="iprf">
+                  <gloss rend="sc">iprf</gloss>
+                  <desc>imperfecto</desc>
+                </valItem>
+                <valItem ident="ind">
+                  <gloss rend="sc">ind</gloss>
+                  <desc>indicativo</desc>
+                </valItem>
+                <valItem ident="inf">
+                  <gloss rend="sc">inf</gloss>
+                  <desc>infinitivo</desc>
+                </valItem>
+                <valItem ident="nom">
+                  <gloss rend="sc">nom</gloss>
+                  <desc>nominativo</desc>
+                </valItem>
+                <valItem ident="pl">
+                  <gloss rend="sc">pl</gloss>
+                  <desc>plural</desc>
+                </valItem>
+                <valItem ident="pst">
+                  <gloss rend="sc">pst</gloss>
+                  <desc>pasado</desc>
+                </valItem>
+                <valItem ident="prs">
+                  <gloss rend="sc">prs</gloss>
+                  <desc>presente</desc>
+                </valItem>
+                <valItem ident="prf">
+                  <gloss rend="sc">prf</gloss>
+                  <desc>perfecto</desc>
+                </valItem>
+                <valItem ident="ptcp">
+                  <gloss rend="sc">ptcp</gloss>
+                  <desc>participio</desc>
+                </valItem>
+                <valItem ident="sg">
+                  <gloss rend="sc">sg</gloss>
+                  <desc>singular</desc>
+                </valItem>
+                <valItem ident="sbjv">
+                  <gloss rend="sc">sbjv</gloss>
+                  <desc>subjuntivo</desc>
+                </valItem>
               </valList>
             </attDef>
             <attDef ident="type" usage="opt" mode="replace">
