@@ -82,7 +82,7 @@
               </valList>
             </attDef>
             <attDef ident="xml:id" usage="rec" mode="change"/>
-            <attDef ident="n" mode="change" usage="req">
+            <attDef ident="n" mode="change" usage="opt">
               <datatype>
                 <dataRef name="decimal"/>
               </datatype>
