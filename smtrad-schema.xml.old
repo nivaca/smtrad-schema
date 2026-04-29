@@ -22,8 +22,10 @@
   </teiHeader>
   <text>
     <body>
-      <schemaSpec ident="SMTrad" start="TEI"
-        source="https://www.tei-c.org/Vault/P5/4.7.0/xml/tei/odd/p5subset.xml">
+      <!--<schemaSpec ident="lombardpress-schema" start="TEI"
+        source="http://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">-->
+      <schemaSpec ident="SMTrad"
+        source="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">
         
         <!-- Core Module -->
         <moduleRef key="core"/>
@@ -36,6 +38,17 @@
             <attDef ident="xml:id" usage="req" mode="change"/>
           </attList>
         </elementSpec>        
+        
+        <!--<constraintSpec ident="note-must-have-ab" scheme="schematron">
+          <desc>
+            note (not having ana=fn) must contain ab direct child
+          </desc>
+          <constraint>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:text/tei:body//tei:note[not(@ana='fn')]">
+              <report test="not(./tei:ab)">note must contain ab as a direct child (or must have ana=fn for a footnote)</report>
+            </rule>
+          </constraint>
+        </constraintSpec>-->
         
         <constraintSpec ident="note-must-have-ab" scheme="schematron">
           <desc>
@@ -87,6 +100,7 @@
               <datatype>
                 <dataRef name="decimal"/>
               </datatype>
+              <valList mode="change"/>
             </attDef>
             <attDef ident="ana" usage="opt" mode="change">
               <valList type="closed" mode="add">
@@ -145,9 +159,6 @@
         
         
         
-        <!-- NOTE: The xml:lang value list below is identical to the one in foreign and q.
-             ODD has no mechanism to define a value list once and reference it elsewhere.
-             If you update this list, update the other two copies accordingly. -->
         <elementSpec ident="quote" module="core" mode="change">
           <attList>
             <attDef ident="xml:lang" usage="opt" mode="change">
@@ -204,7 +215,7 @@
               <valList type="closed" mode="add">
                 <valItem ident="lexeme">
                   <gloss>lexeme</gloss>
-                  <desc>Treats the foreign text as a lexeme</desc>
+                  <desc>Treats the quote as a lexeme</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -341,7 +352,7 @@
               <valList type="closed" mode="add">
                 <valItem ident="lexeme">
                   <gloss>lexeme</gloss>
-                  <desc>Treats the mentioned term as a lexeme</desc>
+                  <desc>Treats the quote as a lexeme</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -355,7 +366,7 @@
               <valList type="closed" mode="add">
                 <valItem ident="lexeme">
                   <gloss>lexeme</gloss>
-                  <desc>Treats the gloss as a lexeme</desc>
+                  <desc>Treats the quote as a lexeme</desc>
                 </valItem>
               </valList>
             </attDef>
@@ -461,19 +472,33 @@
           <desc>An author must be stated. Either the author's name or anonymous should be stated</desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:teiHeader[1]/tei:fileDesc[1]/tei:titleStmt[1]">
-              <assert test="tei:author">An author must be stated. Either the author's name or anonymous should be stated</assert>
+              <report test="not(./tei:author)">An author must be stated. Either the author's name or anonymous should be stated</report>
             </rule>
           </constraint>
         </constraintSpec>
         
         <!-- editionStmt rules -->
-        <constraintSpec ident="edition-requirements" scheme="schematron">
-          <desc>editionStmt/edition must have @n, a date child element, and date/@when</desc>
+        <constraintSpec ident="missing-edition-n" scheme="schematron">
+          <desc>EditionStmt edition must have an n attribute</desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:teiHeader[1]/tei:fileDesc[1]/tei:editionStmt[1]/tei:edition[1]">
-              <assert test="@n">Edition element must indicate edition number with @n (form: x.x.x or x.x.x-dev)</assert>
-              <assert test="tei:date">Edition element must have a date child element</assert>
-              <assert test="tei:date/@when">Edition date must have a @when attribute</assert>
+              <report test="not(./@n)">Edition element must indicate edition number with n attribute of the form x.x.x or x.x.x-dev</report>
+            </rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="missing-edition-date" scheme="schematron">
+          <desc>EditionStmt Edition must have an date element as child</desc>
+          <constraint>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:teiHeader[1]/tei:fileDesc[1]/tei:editionStmt[1]/tei:edition[1]">
+              <report test="not(./tei:date)">EditionStmt Edition must have an date element as child</report>
+            </rule>
+          </constraint>
+        </constraintSpec>
+        <constraintSpec ident="missing-edition-date-when-attribute" scheme="schematron">
+          <desc>EditionStmt Edition Date must have a when attribute</desc>
+          <constraint>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:teiHeader[1]/tei:fileDesc[1]/tei:editionStmt[1]/tei:edition[1]">
+              <report test="not(./tei:date/@when)">EditionStmt Edition Date must have a when attribute</report>
             </rule>
           </constraint>
         </constraintSpec>
@@ -488,7 +513,7 @@
           <desc>Revision description must be present</desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:teiHeader[1]">
-              <assert test="tei:revisionDesc">Revision description must be present</assert>
+              <report test="not(./tei:revisionDesc)">Revision description must be present</report>
             </rule>
           </constraint>
         </constraintSpec>
@@ -508,11 +533,13 @@
         
         <!-- rules for body -->
         <constraintSpec ident="body-must-have-immediate-div-and-no-other-direct-children" scheme="schematron">
-          <desc>Body must have exactly one child element, and it must be a div</desc>
+          <desc>Body must have immediate div and no other direct children</desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:text[1]/tei:body[1]">
-              <assert test="tei:div[1]">Body must have an immediate div child</assert>
-              <report test="count(*) gt 1">Body must have ONLY one child element, and it must be a div</report>
+              <report test="not(./tei:div[1])">Body must have immediate div</report>
+            </rule>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:text[1]/tei:body[1]">
+              <report test="count(./*) gt 1">Body must have ONLY child that is a div</report>
             </rule>
           </constraint>
         </constraintSpec>
@@ -538,7 +565,7 @@
         <moduleRef key="transcr"/>
         
         <!-- "supplied" element-->
-        <elementSpec ident="supplied" module="transcr" mode="change">
+        <elementSpec ident="supplied" module="core" mode="change">
           <attList>
             <!-- @rend -->
             <attDef ident="rend" usage="opt" mode="change">
@@ -849,7 +876,7 @@
                   <desc>conjunción</desc>
                 </valItem>
                 <valItem ident="dat">
-                  <gloss rend="sc">dat</gloss>
+                  <gloss rend="sc">dat.</gloss>
                   <desc>dativo</desc>
                 </valItem>
                 <valItem ident="fut">
@@ -861,7 +888,7 @@
                   <desc>genitivo</desc>
                 </valItem>
                 <valItem ident="imp">
-                  <gloss rend="sc">imp</gloss>
+                  <gloss rend="sc">imp.</gloss>
                   <desc>imperativo</desc>
                 </valItem>
                 <valItem ident="iprf">
@@ -1029,6 +1056,7 @@
                   <gloss>In line</gloss>
                   <desc>the addition is made in the line itself</desc>
                 </valItem>
+                <!-- TODO: do we need to support this -->
                 <valItem ident="in-space">
                   <gloss>In space</gloss>
                   <desc>In a predefined space left for an addition, perhaps a space left by another scribe.</desc>
@@ -1037,6 +1065,16 @@
             </attDef>
           </attList>
         </classSpec>
+        
+        <!--        
+          <constraintSpec ident="q-corresp-not-just-hash" scheme="schematron">
+          <desc>q element should not have corresp="#"</desc>
+          <constraint>
+          <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:q">
+          <report test="@corresp='#'">Error: q element has corresp="#" which is an empty reference. The corresp attribute should reference a valid XML ID after the hash.</report>
+          </rule>
+          </constraint>
+          </constraintSpec>-->
         
         <constraintSpec ident="element-corresp-not-just-hash" scheme="schematron">
           <desc>No element should have corresp="#"</desc>
@@ -1054,7 +1092,7 @@
           </desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:foreign[parent::tei:ref]">
-              <assert test="@ana='lexeme'">Error: foreign element that is a direct child of ref must have ana="lexeme"</assert>
+              <report test="not(@ana='lexeme')">Error: foreign element that is a direct child of ref must have ana="lexeme"</report>
             </rule>
           </constraint>
         </constraintSpec>
@@ -1066,7 +1104,7 @@
           </desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:ref[tei:foreign[@ana='lexeme']]">
-              <assert test="tei:abbr[@ana='sv' or @ana='ssvv']">Error: ref element containing foreign with ana="lexeme" must also contain abbr with ana="sv" or ana="ssvv"</assert>
+              <report test="not(tei:abbr[@ana='sv' or @ana='ssvv'])">Error: ref element containing foreign with ana="lexeme" must also contain abbr with ana="sv" or ana="ssvv"</report>
             </rule>
           </constraint>
         </constraintSpec>
