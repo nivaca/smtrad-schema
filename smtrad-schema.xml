@@ -39,13 +39,27 @@
           </attList>
         </elementSpec>        
         
-        <constraintSpec ident="note-must-have-ab" scheme="schematron">
+        <!--<constraintSpec ident="note-must-have-ab" scheme="schematron">
           <desc>
             note (not having ana=fn) must contain ab direct child
           </desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:text/tei:body//tei:note[not(@ana='fn')]">
               <report test="not(./tei:ab)">note must contain ab as a direct child (or must have ana=fn for a footnote)</report>
+            </rule>
+          </constraint>
+        </constraintSpec>-->
+        
+        <constraintSpec ident="note-must-have-ab" scheme="schematron">
+          <desc>
+            note (not having ana=fn) must contain one or more ab elements as direct children
+          </desc>
+          <constraint>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron"
+              context="tei:note[not(@ana='fn')]">
+              <assert test="count(tei:ab) ge 1">
+                A note must contain one or more ab elements as direct children (unless ana='fn').
+              </assert>
             </rule>
           </constraint>
         </constraintSpec>

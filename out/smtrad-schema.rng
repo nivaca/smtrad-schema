@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-04-23T02:05:22Z. . 
+Schema generated from ODD source 2026-04-29T20:54:51Z. . 
 TEI Edition: P5 Version 4.11.0. Last updated on 18th February 2026, revision 358d2e48e 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.11.0/ 
   
@@ -17020,8 +17020,10 @@ Suggested values include: 1] pilcrow (pilcrow); 2] virgula (virgula); 3] punctus
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="SMTrad-note-must-have-ab-constraint-rule-55">
       <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            context="/tei:TEI/tei:text/tei:body//tei:note[not(@ana='fn')]">
-         <report test="not(./tei:ab)">note must contain ab as a direct child (or must have ana=fn for a footnote)</report>
+            context="tei:note[not(@ana='fn')]">
+         <assert test="count(tei:ab) ge 1">
+                A note must contain one or more ab elements as direct children (unless ana='fn').
+              </assert>
       </rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
