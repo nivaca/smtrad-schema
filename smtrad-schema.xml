@@ -508,11 +508,13 @@
         
         <!-- rules for body -->
         <constraintSpec ident="body-must-have-immediate-div-and-no-other-direct-children" scheme="schematron">
-          <desc>Body must have exactly one child element, and it must be a div</desc>
+          <desc>Body may only contain div elements as direct children</desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="/tei:TEI/tei:text[1]/tei:body[1]">
               <assert test="tei:div[1]">Body must have an immediate div child</assert>
-              <report test="count(*) gt 1">Body must have ONLY one child element, and it must be a div</report>
+              <report test="*[not(self::tei:div)]">
+                Body may only contain div elements as direct children
+              </report>
             </rule>
           </constraint>
         </constraintSpec>

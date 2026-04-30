@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-04-29T21:25:17Z. . 
+Schema generated from ODD source 2026-04-30T20:34:45Z. . 
 TEI Edition: P5 Version 4.7.0. Last updated on 16th November 2023, revision e5dd73ed0 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/ 
   
@@ -18307,7 +18307,9 @@ The attributes @to and @from on <name/> may each contain only a single value</re
       <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
             context="/tei:TEI/tei:text[1]/tei:body[1]">
          <assert test="tei:div[1]">Body must have an immediate div child</assert>
-         <report test="count(*) gt 1">Body must have ONLY one child element, and it must be a div</report>
+         <report test="*[not(self::tei:div)]">
+                Body may only contain div elements as direct children
+              </report>
       </rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
