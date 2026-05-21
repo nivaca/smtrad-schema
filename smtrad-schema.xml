@@ -791,6 +791,10 @@
                   <gloss rend="sc">cym</gloss>
                   <desc>galés</desc>
                 </valItem>
+                <valItem ident="fro">
+                  <gloss rend="sc">fro</gloss>
+                  <desc>francés antiguo</desc>
+                </valItem>
                 <valItem ident="eng">
                   <gloss rend="sc">eng</gloss>
                   <desc>inglés</desc>
