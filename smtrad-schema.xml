@@ -65,6 +65,12 @@
                     Segment used for Leipzig-style interlinear glossing
                   </desc>
                 </valItem>
+                <valItem ident="comment">
+                  <gloss>comment</gloss>
+                  <desc>
+                    A comment that can be included in the text.
+                  </desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
