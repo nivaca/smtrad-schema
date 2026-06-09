@@ -65,10 +65,10 @@
                     Segment used for Leipzig-style interlinear glossing
                   </desc>
                 </valItem>
-                <valItem ident="comment">
-                  <gloss>comment</gloss>
+                <valItem ident="orig">
+                  <gloss>original</gloss>
                   <desc>
-                    A comment that can be included in the text.
+                    Original.
                   </desc>
                 </valItem>
               </valList>
