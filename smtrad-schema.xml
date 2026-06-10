@@ -171,6 +171,7 @@
                 <valItem ident="ita"><gloss>Italian</gloss></valItem>
                 <valItem ident="lat"><gloss>Latin</gloss></valItem>
                 <valItem ident="nld"><gloss>Dutch</gloss></valItem>
+                <valItem ident="ohg"><gloss>Old High German</gloss></valItem>
                 <valItem ident="spa"><gloss>Spanish</gloss></valItem>
               </valList>
             </attDef>
@@ -203,6 +204,7 @@
                 <valItem ident="ita"><gloss>Italian</gloss></valItem>
                 <valItem ident="lat"><gloss>Latin</gloss></valItem>
                 <valItem ident="nld"><gloss>Dutch</gloss></valItem>
+                <valItem ident="ohg"><gloss>Old High German</gloss></valItem>
                 <valItem ident="spa"><gloss>Spanish</gloss></valItem>
               </valList>
             </attDef>
@@ -236,6 +238,7 @@
                 <valItem ident="ita"><gloss>Italian</gloss></valItem>
                 <valItem ident="lat"><gloss>Latin</gloss></valItem>
                 <valItem ident="nld"><gloss>Dutch</gloss></valItem>
+                <valItem ident="ohg"><gloss>Old High German</gloss></valItem>
                 <valItem ident="spa"><gloss>Spanish</gloss></valItem>
               </valList>
             </attDef>
@@ -831,9 +834,7 @@
                 </valItem>
                 <valItem ident="spa">
                   <gloss rend="sc">spa</gloss>
-                  <desc>
-                    español
-                  </desc>
+                  <desc>español</desc>
                 </valItem>
                 <!--   LEIPZIG   -->
                 <valItem ident="abl">
