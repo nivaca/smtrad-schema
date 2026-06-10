@@ -171,7 +171,7 @@
                 <valItem ident="ita"><gloss>Italian</gloss></valItem>
                 <valItem ident="lat"><gloss>Latin</gloss></valItem>
                 <valItem ident="nld"><gloss>Dutch</gloss></valItem>
-                <valItem ident="ohg"><gloss>Old High German</gloss></valItem>
+                <valItem ident="goh"><gloss>Old High German</gloss></valItem>
                 <valItem ident="spa"><gloss>Spanish</gloss></valItem>
               </valList>
             </attDef>
