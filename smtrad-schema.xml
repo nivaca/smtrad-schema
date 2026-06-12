@@ -39,7 +39,8 @@
         
         <constraintSpec ident="note-must-have-ab" scheme="schematron">
           <desc>
-            note (not having ana=fn) must contain one or more ab elements as direct children
+            A note (unless ana='fn') must contain one or more ab elements as its only
+            direct children: no non-ab child elements and no loose text.
           </desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -47,6 +48,14 @@
               <assert test="count(tei:ab) ge 1">
                 A note must contain one or more ab elements as direct children (unless ana='fn').
               </assert>
+              <report test="*[not(self::tei:ab)]">
+                Error: a note (unless ana='fn') may only contain ab elements as direct children.
+                Offending element(s): <value-of select="string-join(distinct-values(*[not(self::tei:ab)]/name()), ', ')"/>.
+              </report>
+              <report test="text()[normalize-space(.) != '']">
+                Error: a note (unless ana='fn') must not contain loose text directly; wrap it in an ab.
+                Stray text: "<value-of select="normalize-space(string-join(text()[normalize-space(.) != ''], ' '))"/>".
+              </report>
             </rule>
           </constraint>
         </constraintSpec>
