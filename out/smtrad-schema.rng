@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-06-19T16:42:30Z. . 
+Schema generated from ODD source 2026-06-19T16:48:10Z. . 
 TEI Edition: P5 Version 4.7.0. Last updated on 16th November 2023, revision e5dd73ed0 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/ 
   
@@ -18337,9 +18337,9 @@ The attributes @to and @from on <name/> may each contain only a single value</re
       </rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="SMTrad-corresp-must-start-with-hash-constraint-rule-87">
+            id="SMTrad-corresp-must-contain-fragment-constraint-rule-87">
       <rule xmlns:rng="http://relaxng.org/ns/structure/1.0" context="*[@corresp]">
-         <assert test="starts-with(@corresp, '#')">Error: <name/> has corresp="<value-of select="@corresp"/>", which must begin with "#"...</assert>
+         <assert test="substring-after(@corresp, '#') != ''">Error: <name/> has corresp="<value-of select="@corresp"/>", which lacks a fragment identifier. The @corresp value must reference an element via "#id", optionally after a URI (e.g. "#d1e31" or "vulgClem/1Par.xml#d1e31").</assert>
       </rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"

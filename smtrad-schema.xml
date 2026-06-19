@@ -1068,15 +1068,17 @@
             </rule>
           </constraint>
         </constraintSpec>
-
-        <constraintSpec ident="corresp-must-start-with-hash" scheme="schematron">
-          <desc>The value of @corresp must begin with "#" (an internal reference).</desc>
+        
+        
+        <constraintSpec ident="corresp-must-contain-fragment" scheme="schematron">
+          <desc>The value of @corresp must include a non-empty fragment identifier ("#id") pointing to a specific element. The fragment may stand alone (e.g. "#d1e31") or follow a relative or absolute URI (e.g. "vulgClem/1Par.xml#d1e31"). A bare path with no "#id" is not allowed.</desc>
           <constraint>
             <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="*[@corresp]">
-              <assert test="starts-with(@corresp, '#')">Error: <name/> has corresp="<value-of select="@corresp"/>", which must begin with "#"...</assert>
+              <assert test="substring-after(@corresp, '#') != ''">Error: <name/> has corresp="<value-of select="@corresp"/>", which lacks a fragment identifier. The @corresp value must reference an element via "#id", optionally after a URI (e.g. "#d1e31" or "vulgClem/1Par.xml#d1e31").</assert>
             </rule>
           </constraint>
         </constraintSpec>
+        
         
         <constraintSpec ident="foreign-in-ref-must-have-lexeme-ana" scheme="schematron">
           <desc>
