@@ -1068,7 +1068,15 @@
             </rule>
           </constraint>
         </constraintSpec>
-        
+
+        <constraintSpec ident="corresp-must-start-with-hash" scheme="schematron">
+          <desc>The value of @corresp must begin with "#" (an internal reference).</desc>
+          <constraint>
+            <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="*[@corresp]">
+              <assert test="starts-with(@corresp, '#')">Error: <name/> has corresp="<value-of select="@corresp"/>", which must begin with "#"...</assert>
+            </rule>
+          </constraint>
+        </constraintSpec>
         
         <constraintSpec ident="foreign-in-ref-must-have-lexeme-ana" scheme="schematron">
           <desc>

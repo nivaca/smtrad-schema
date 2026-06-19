@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-06-12T16:13:25Z. . 
+Schema generated from ODD source 2026-06-19T16:42:30Z. . 
 TEI Edition: P5 Version 4.7.0. Last updated on 16th November 2023, revision e5dd73ed0 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/ 
   
@@ -18337,14 +18337,20 @@ The attributes @to and @from on <name/> may each contain only a single value</re
       </rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="SMTrad-foreign-in-ref-must-have-lexeme-ana-constraint-rule-87">
+            id="SMTrad-corresp-must-start-with-hash-constraint-rule-87">
+      <rule xmlns:rng="http://relaxng.org/ns/structure/1.0" context="*[@corresp]">
+         <assert test="starts-with(@corresp, '#')">Error: <name/> has corresp="<value-of select="@corresp"/>", which must begin with "#"...</assert>
+      </rule>
+   </pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="SMTrad-foreign-in-ref-must-have-lexeme-ana-constraint-rule-88">
       <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
             context="tei:foreign[parent::tei:ref]">
          <assert test="@ana='lexeme'">Error: foreign element that is a direct child of ref must have ana="lexeme"</assert>
       </rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="SMTrad-ref-with-foreign-lexeme-must-contain-abbr-sv-constraint-rule-88">
+            id="SMTrad-ref-with-foreign-lexeme-must-contain-abbr-sv-constraint-rule-89">
       <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
             context="tei:ref[tei:foreign[@ana='lexeme']]">
          <assert test="tei:abbr[@ana='sv' or @ana='ssvv']">Error: ref element containing foreign with ana="lexeme" must also contain abbr with ana="sv" or ana="ssvv"</assert>
