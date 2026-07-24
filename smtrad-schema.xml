@@ -902,6 +902,10 @@
                   <gloss rend="sc">nom</gloss>
                   <desc>nominativo</desc>
                 </valItem>
+                <valItem ident="part">
+                  <gloss rend="sc">part</gloss>
+                  <desc>participio</desc>
+                </valItem>
                 <valItem ident="pass">
                   <gloss rend="sc">pass</gloss>
                   <desc>pasivo</desc>
