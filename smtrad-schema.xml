@@ -796,19 +796,19 @@
                   </desc>
                 </valItem>
                 <!--  NOMBRES  -->
-                <valItem ident="Bee">
+                <valItem ident="bee">
                   <gloss>Bee.</gloss>
                   <desc>Beecher</desc>
                 </valItem>
-                <valItem ident="Brad">
+                <valItem ident="brad">
                   <gloss>Brad.</gloss>
                   <desc>Bradbury</desc>
                 </valItem>
-                <valItem ident="Mar">
+                <valItem ident="mar">
                   <gloss>Mar.</gloss>
                   <desc>Marini</desc>
                 </valItem>
-                <valItem ident="Ziol">
+                <valItem ident="ziol">
                   <gloss>Ziol.</gloss>
                   <desc>Ziolkowski</desc>
                 </valItem>
